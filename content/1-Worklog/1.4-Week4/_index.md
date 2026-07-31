@@ -17,13 +17,13 @@ pre: " <b> 1.4. </b> "
 
 ### Tasks for This Week
 
-| Day       | Tasks                                                                                                                                                                   | Start Date | Completion Date | Reference Material |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| Monday    | - Study **Module 04-01:** Storage Services on AWS <br> - Learn about Object Storage, Block Storage, and File Storage                                                    | 22/06/2026 | 22/06/2026      |
-| Tuesday   | - Study **Module 04-02:** Amazon S3, Access Points, and Storage Classes <br> - Learn about Buckets, Objects, Versioning, and Lifecycle Policies                         | 23/06/2026 | 23/06/2026      |
-| Wednesday | - Study **Module 04-03:** Amazon S3 Static Website Hosting, CORS, Object Keys, Performance Optimization, and Amazon S3 Glacier                                          | 24/06/2026 | 24/06/2026      |
-| Thursday  | - Study **Module 04-04:** AWS Snow Family, AWS Storage Gateway, and AWS Backup <br> - Explore data migration and backup solutions                                       | 25/06/2026 | 25/06/2026      |
-| Friday    | - Practice creating an Amazon S3 bucket <br> - Configure Static Website Hosting <br> - Enable Versioning, configure Lifecycle Rules, and verify data access permissions | 26/06/2026 | 26/06/2026      |
+| Day       | Tasks                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Monday    | - Study **Module 04-01:** Storage Services on AWS <br> - Learn about Object Storage, Block Storage, and File Storage                                                    | 22/06/2026 | 22/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Tuesday   | - Study **Module 04-02:** Amazon S3, Access Points, and Storage Classes <br> - Learn about Buckets, Objects, Versioning, and Lifecycle Policies                         | 23/06/2026 | 23/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wednesday | - Study **Module 04-03:** Amazon S3 Static Website Hosting, CORS, Object Keys, Performance Optimization, and Amazon S3 Glacier                                          | 24/06/2026 | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thursday  | - Study **Module 04-04:** AWS Snow Family, AWS Storage Gateway, and AWS Backup <br> - Explore data migration and backup solutions                                       | 25/06/2026 | 25/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Friday    | - Practice creating an Amazon S3 bucket <br> - Configure Static Website Hosting <br> - Enable Versioning, configure Lifecycle Rules, and verify data access permissions | 26/06/2026 | 26/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

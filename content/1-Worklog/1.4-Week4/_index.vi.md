@@ -17,13 +17,13 @@ pre: " <b> 1.4. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc                                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Học **Module 04-01:** Dịch vụ lưu trữ trên AWS <br> - Tìm hiểu các loại hình lưu trữ: Object Storage, Block Storage và File Storage           | 22/06/2026   | 22/06/2026      |
-| 3   | - Học **Module 04-02:** Amazon S3, Access Point và Storage Class <br> - Tìm hiểu Bucket, Object, Versioning và Lifecycle Policy                 | 23/06/2026   | 23/06/2026      |
-| 4   | - Học **Module 04-03:** S3 Static Website Hosting, CORS, Object Key, Performance và Amazon S3 Glacier                                           | 24/06/2026   | 24/06/2026      |
-| 5   | - Học **Module 04-04:** AWS Snow Family, Storage Gateway và AWS Backup <br> - Tìm hiểu các giải pháp di chuyển và sao lưu dữ liệu               | 25/06/2026   | 25/06/2026      |
-| 6   | - Thực hành tạo S3 Bucket <br> - Cấu hình Static Website Hosting <br> - Thiết lập Versioning, Lifecycle Rule và kiểm tra quyền truy cập dữ liệu | 26/06/2026   | 26/06/2026      |
+| Thứ | Công việc                                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Học **Module 04-01:** Dịch vụ lưu trữ trên AWS <br> - Tìm hiểu các loại hình lưu trữ: Object Storage, Block Storage và File Storage           | 22/06/2026   | 22/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Học **Module 04-02:** Amazon S3, Access Point và Storage Class <br> - Tìm hiểu Bucket, Object, Versioning và Lifecycle Policy                 | 23/06/2026   | 23/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Học **Module 04-03:** S3 Static Website Hosting, CORS, Object Key, Performance và Amazon S3 Glacier                                           | 24/06/2026   | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học **Module 04-04:** AWS Snow Family, Storage Gateway và AWS Backup <br> - Tìm hiểu các giải pháp di chuyển và sao lưu dữ liệu               | 25/06/2026   | 25/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Thực hành tạo S3 Bucket <br> - Cấu hình Static Website Hosting <br> - Thiết lập Versioning, Lifecycle Rule và kiểm tra quyền truy cập dữ liệu | 26/06/2026   | 26/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

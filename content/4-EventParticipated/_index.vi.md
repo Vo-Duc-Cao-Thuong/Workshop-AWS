@@ -1,6 +1,6 @@
 ---
 title: "Các events đã tham gia"
-date: 2024-01-01
+date: 2026-07-24
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
@@ -33,16 +33,6 @@ Trong quá trình thực tập, em đã tham gia 4 events, với mỗi event là
 &emsp;**Tên sự kiện:** AGENTIC AI & THE FUTURE OF OPERATIONS
 
 &emsp;**Thời gian:** 09:00 ngày 20/06/2026
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự
-
-### [Event 4](4.4-Event4/)
-
-&emsp;**Tên sự kiện:** COMMUNITY DAY 25/07/2026
-
-&emsp;**Thời gian:** 09:00 ngày 25/07/2026
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 

@@ -1,132 +1,61 @@
 ---
 title: "Event 2"
-date: 2024-01-01
+date: 2026-06-20
 weight: 1
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Game Day – The Battle of 8 Teams”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
-
-### Speakers
-
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- To create an opportunity for networking and interaction among participants in the First Cloud AI Journey program.
+- To review and reinforce the knowledge learned throughout the Amazon Web Services (AWS) training program.
+- To encourage teamwork, critical thinking, and problem-solving skills under time constraints.
+- To provide an engaging and motivating learning experience through a team-based competition. ### Highlights of the Event
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Competition Among Eight Teams
 
-- Long product release cycles → Lost revenue/missed opportunities
-- Inefficient operations → Reduced productivity, higher costs
-- Non-compliance with security regulations → Security breaches, loss of reputation
+The highlight of the event was the competition between eight teams, where participants answered various questions and completed challenges related to the topics covered throughout the First Cloud AI Journey program. Each team had the opportunity to demonstrate its understanding of AWS concepts, analytical thinking, and ability to collaborate in order to provide the correct answers within a limited time.
 
-#### Transitioning to modern application architecture – Microservices
+The competition covered a wide range of AWS topics, including:
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Cloud Computing fundamentals. - AWS Global Infrastructure.
+- Amazon EC2, Amazon S3, and Amazon RDS.
+- AWS Identity and Access Management (IAM) and AWS security best practices.
+- Amazon VPC and networking components. - Serverless Computing and related AWS services.
+- Data Analytics and AWS data processing services.
 
-- **Queue Management**: Handle asynchronous tasks
-- **Caching Strategy**: Optimize performance
-- **Message Handling**: Flexible inter-service communication
+Throughout the competition, teams not only competed for high scores but also shared their learning experiences and problem-solving approaches, allowing participants to review the entire AWS curriculum in an interactive and memorable way.
 
-#### Domain-Driven Design (DDD)
+#### Teamwork and Networking
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts
-- **Bookstore case study**: Demonstrates real-world DDD application
-- **Context mapping**: 7 patterns for integrating bounded contexts
+Beyond being a knowledge competition, Game Day also provided an excellent opportunity for participants to collaborate, exchange ideas, and strengthen teamwork skills.Team members contributed their opinions, analyzed questions together, and reached consensus on the best answers within a limited amount of time.
 
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming
-- **Benefits**: Loose coupling, scalability, resilience
-- **Sync vs async comparison**: Understanding the trade-offs
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria for appropriate choice
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+The event featured lively discussions, enthusiastic cheering, and valuable knowledge sharing among teams, creating a positive and collaborative learning environment.
 
 ### Key Takeaways
 
-#### Design Mindset
+After participating in the event, I gained several valuable lessons:
 
-- **Business-first approach**: Always start from the business domain, not the technology
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams
-- **Bounded contexts**: Identifying and managing complexity in large systems
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes
-- Use **event-driven communication** instead of synchronous calls
-- **Integration patterns**: When to use sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap
-- **7Rs framework**: Multiple modernization paths depending on the application
-- **ROI measurement**: Cost reduction + business agility
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams
-- **Refactor microservices**: Use bounded contexts to define service boundaries
-- **Implement event-driven patterns**: Replace some sync calls with async messaging
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity
+- Reinforced the AWS knowledge learned throughout the First Cloud AI Journey program.
+- Developed a deeper understanding of how AWS services can be applied to solve practical scenarios instead of simply memorizing theoretical concepts.
+- Improved teamwork, communication, and collaboration skills while making quick decisions with teammates.
+- Strengthened logical thinking, analytical abilities, and problem-solving skills under time pressure.
+- Recognized the importance of continuously reviewing and organizing knowledge to apply it effectively in both academic studies and future professional work.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.
-
-#### Hands-on technical exposure
-
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.
-
-#### Leveraging modern tools
-
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.
-
-#### Networking and discussions
-
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.
-
-#### Lessons learned
-
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.
+Game Day was one of the most enjoyable and meaningful activities during the internship program. Instead of following a traditional learning format, combining knowledge review with a competitive team-based game made the learning process much more engaging, interactive, and memorable.
+Through this event, I not only strengthened my understanding of AWS services but also had the opportunity to connect with other participants and learn different approaches to solving problems.The teamwork, collaboration, and healthy competitive atmosphere made the experience both enjoyable and rewarding.
+Overall, this event helped me assess my current level of AWS knowledge, identify areas that require further improvement, and motivated me to continue exploring AWS technologies in greater depth.
 
 #### Some event photos
 
-_Add your event photos here_
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Event Photo](/images/6C7A6903.JPG)
+![Event Photo](/images/6C7A6985.JPG)
+![Event Photo](/images/6C7A6986.JPG)
+![Event Photo](/images/6C7A6998.JPG)

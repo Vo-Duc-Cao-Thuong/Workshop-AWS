@@ -18,12 +18,12 @@ pre: " <b> 1.9. </b> "
 ### Tasks to Be Completed This Week
 
 | Day | Tasks                                                                                                                             | Start Date | Completion Date |
-| --- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| Mon | - Review Modules 01 to 03 <br> - Revisit AWS Networking and Compute services                                                      | 27/07/2026 | 27/07/2026      |
-| Tue | - Review Modules 04 and 05 <br> - Revisit Storage, Security, and Identity Management services                                     | 28/07/2026 | 28/07/2026      |
-| Wed | - Review Modules 06 and 07 <br> - Revisit Database, Data Analytics, and Serverless services                                       | 29/07/2026 | 29/07/2026      |
-| Thu | - Evaluate the final project <br> - Review system architecture, performance, security, and cost optimization                      | 30/07/2026 | 30/07/2026      |
-| Fri | - Finalize the Worklog and technical documentation <br> - Summarize the program and create a learning plan for AWS certifications | 31/07/2026 | 31/07/2026      |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Mon | - Review Modules 01 to 03 <br> - Revisit AWS Networking and Compute services                                                      | 27/07/2026 | 27/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | - Review Modules 04 and 05 <br> - Revisit Storage, Security, and Identity Management services                                     | 28/07/2026 | 28/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Review Modules 06 and 07 <br> - Revisit Database, Data Analytics, and Serverless services                                       | 29/07/2026 | 29/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | - Evaluate the final project <br> - Review system architecture, performance, security, and cost optimization                      | 30/07/2026 | 30/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | - Finalize the Worklog and technical documentation <br> - Summarize the program and create a learning plan for AWS certifications | 31/07/2026 | 31/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

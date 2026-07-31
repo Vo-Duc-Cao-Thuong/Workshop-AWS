@@ -18,12 +18,12 @@ pre: " <b> 1.9. </b> "
 ### Các công việc cần triển khai trong tuần này
 
 | Thứ | Công việc                                                                                                             | Ngày bắt đầu | Ngày hoàn thành |
-| --- | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- |
-| 2   | - Ôn tập kiến thức từ Module 01 đến Module 03 <br> - Rà soát các dịch vụ Networking và Compute trên AWS               | 27/07/2026   | 27/07/2026      |
-| 3   | - Ôn tập Module 04 và Module 05 <br> - Xem lại các dịch vụ Storage, Security và Identity Management                   | 28/07/2026   | 28/07/2026      |
-| 4   | - Ôn tập Module 06 và Module 07 <br> - Rà soát các dịch vụ Database, Data Analytics và Serverless                     | 29/07/2026   | 29/07/2026      |
-| 5   | - Đánh giá lại dự án cuối khóa <br> - Rà soát kiến trúc hệ thống, hiệu năng, bảo mật và tối ưu chi phí                | 30/07/2026   | 30/07/2026      |
-| 6   | - Hoàn thiện Worklog và tài liệu kỹ thuật <br> - Tổng kết chương trình và xây dựng kế hoạch học tập các chứng chỉ AWS | 31/07/2026   | 31/07/2026      |
+| --- | --------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Ôn tập kiến thức từ Module 01 đến Module 03 <br> - Rà soát các dịch vụ Networking và Compute trên AWS               | 27/07/2026   | 27/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Ôn tập Module 04 và Module 05 <br> - Xem lại các dịch vụ Storage, Security và Identity Management                   | 28/07/2026   | 28/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Ôn tập Module 06 và Module 07 <br> - Rà soát các dịch vụ Database, Data Analytics và Serverless                     | 29/07/2026   | 29/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Đánh giá lại dự án cuối khóa <br> - Rà soát kiến trúc hệ thống, hiệu năng, bảo mật và tối ưu chi phí                | 30/07/2026   | 30/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Hoàn thiện Worklog và tài liệu kỹ thuật <br> - Tổng kết chương trình và xây dựng kế hoạch học tập các chứng chỉ AWS | 31/07/2026   | 31/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

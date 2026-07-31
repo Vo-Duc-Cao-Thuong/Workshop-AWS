@@ -18,13 +18,13 @@ pre: " <b> 1.3. </b> "
 
 ### Tasks for This Week
 
-| Day       | Tasks                                                                                                                                                                                 | Start Date | Completion Date | Reference Material |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| Monday    | - Study **Module 03-01:** Compute VM on AWS <br> - Learn about Amazon EC2 and EC2 Instance Types                                                                                      | 15/06/2026 | 15/06/2026      |
-| Tuesday   | - Study **Module 03-01-02:** Amazon Machine Images (AMI), Backup, and Key Pairs <br> - Study **Module 03-01-03:** Amazon Elastic Block Store (Amazon EBS)                             | 16/06/2026 | 16/06/2026      |
-| Wednesday | - Study **Module 03-01-04:** EC2 Instance Store <br> - Study **Module 03-01-05:** User Data <br> - Study **Module 03-01-06:** Instance Metadata                                       | 17/06/2026 | 17/06/2026      |
-| Thursday  | - Study **Module 03-01-07:** Amazon EC2 Auto Scaling <br> - Study **Module 03-02:** Amazon EFS, Amazon FSx, Amazon Lightsail, and AWS Application Migration Service (AWS MGN)         | 18/06/2026 | 18/06/2026      |
-| Friday    | - Practice launching and configuring an Amazon EC2 instance <br> - Connect to an EC2 instance via SSH <br> - Attach and manage Amazon EBS volumes <br> - Configure basic Auto Scaling | 19/06/2026 | 19/06/2026      |
+| Day       | Tasks                                                                                                                                                                                 | Start Date | Completion Date | Reference Material                        |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Monday    | - Study **Module 03-01:** Compute VM on AWS <br> - Learn about Amazon EC2 and EC2 Instance Types                                                                                      | 15/06/2026 | 15/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Tuesday   | - Study **Module 03-01-02:** Amazon Machine Images (AMI), Backup, and Key Pairs <br> - Study **Module 03-01-03:** Amazon Elastic Block Store (Amazon EBS)                             | 16/06/2026 | 16/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wednesday | - Study **Module 03-01-04:** EC2 Instance Store <br> - Study **Module 03-01-05:** User Data <br> - Study **Module 03-01-06:** Instance Metadata                                       | 17/06/2026 | 17/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thursday  | - Study **Module 03-01-07:** Amazon EC2 Auto Scaling <br> - Study **Module 03-02:** Amazon EFS, Amazon FSx, Amazon Lightsail, and AWS Application Migration Service (AWS MGN)         | 18/06/2026 | 18/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Friday    | - Practice launching and configuring an Amazon EC2 instance <br> - Connect to an EC2 instance via SSH <br> - Attach and manage Amazon EBS volumes <br> - Configure basic Auto Scaling | 19/06/2026 | 19/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

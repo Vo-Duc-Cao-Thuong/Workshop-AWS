@@ -18,13 +18,13 @@ pre: " <b> 1.1. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Tham gia chương trình First Cloud AI Journey <br> - Làm quen với lộ trình học tập và nội quy Bootcamp                                   | 01/06/2026   | 01/06/2026      |
-| 3   | - Học **Module 01-01:** Điện toán đám mây là gì? <br> - Học **Module 01-02:** Điều gì tạo nên sự khác biệt của AWS?                       | 02/06/2026   | 02/06/2026      |
-| 4   | - Học **Module 01-03:** Bắt đầu hành trình lên mây như thế nào <br> - Học **Module 01-04:** Hạ tầng toàn cầu của AWS                      | 03/06/2026   | 03/06/2026      |
-| 5   | - Học **Module 01-05:** Công cụ quản lý AWS Services <br> - Học **Module 01-06:** Tối ưu hóa chi phí trên AWS và làm việc với AWS Support | 04/06/2026   | 04/06/2026      |
-| 6   | - Hoàn thành **Module 01-07:** Thực hành và nghiên cứu bổ sung <br> - Ôn tập kiến thức và hoàn thành bài thực hành                        | 05/06/2026   | 05/06/2026      |
+| Thứ | Công việc                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Tham gia chương trình First Cloud AI Journey <br> - Làm quen với lộ trình học tập và nội quy Bootcamp                                   | 01/06/2026   | 01/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Học **Module 01-01:** Điện toán đám mây là gì? <br> - Học **Module 01-02:** Điều gì tạo nên sự khác biệt của AWS?                       | 02/06/2026   | 02/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Học **Module 01-03:** Bắt đầu hành trình lên mây như thế nào <br> - Học **Module 01-04:** Hạ tầng toàn cầu của AWS                      | 03/06/2026   | 03/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học **Module 01-05:** Công cụ quản lý AWS Services <br> - Học **Module 01-06:** Tối ưu hóa chi phí trên AWS và làm việc với AWS Support | 04/06/2026   | 04/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Hoàn thành **Module 01-07:** Thực hành và nghiên cứu bổ sung <br> - Ôn tập kiến thức và hoàn thành bài thực hành                        | 05/06/2026   | 05/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

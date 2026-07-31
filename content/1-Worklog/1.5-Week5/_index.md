@@ -17,13 +17,13 @@ pre: " <b> 1.5. </b> "
 
 ### Tasks for This Week
 
-| Day       | Tasks                                                                                                                                                                             | Start Date | Completion Date | Reference Material |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| Monday    | - Study **Module 05-01:** AWS Shared Responsibility Model <br> - Learn about the security responsibilities of AWS and customers                                                   | 29/06/2026 | 29/06/2026      |
-| Tuesday   | - Study **Module 05-02:** AWS Identity and Access Management (IAM) <br> - Practice creating IAM Users, Groups, Roles, and Policies                                                | 30/06/2026 | 30/06/2026      |
-| Wednesday | - Study **Module 05-03:** Amazon Cognito <br> - Study **Module 05-04:** AWS Organizations                                                                                         | 01/07/2026 | 01/07/2026      |
-| Thursday  | - Study **Module 05-05:** AWS IAM Identity Center <br> - Study **Module 05-06:** AWS Key Management Service (AWS KMS)                                                             | 02/07/2026 | 02/07/2026      |
-| Friday    | - Study **Module 05-07:** AWS Security Hub <br> - Complete **Module 05-08:** Hands-on Labs and Additional Research <br> - Practice configuring IAM, AWS KMS, and AWS Security Hub | 03/07/2026 | 03/07/2026      |
+| Day       | Tasks                                                                                                                                                                             | Start Date | Completion Date | Reference Material                        |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Monday    | - Study **Module 05-01:** AWS Shared Responsibility Model <br> - Learn about the security responsibilities of AWS and customers                                                   | 29/06/2026 | 29/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Tuesday   | - Study **Module 05-02:** AWS Identity and Access Management (IAM) <br> - Practice creating IAM Users, Groups, Roles, and Policies                                                | 30/06/2026 | 30/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wednesday | - Study **Module 05-03:** Amazon Cognito <br> - Study **Module 05-04:** AWS Organizations                                                                                         | 01/07/2026 | 01/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thursday  | - Study **Module 05-05:** AWS IAM Identity Center <br> - Study **Module 05-06:** AWS Key Management Service (AWS KMS)                                                             | 02/07/2026 | 02/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Friday    | - Study **Module 05-07:** AWS Security Hub <br> - Complete **Module 05-08:** Hands-on Labs and Additional Research <br> - Practice configuring IAM, AWS KMS, and AWS Security Hub | 03/07/2026 | 03/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

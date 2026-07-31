@@ -18,13 +18,13 @@ pre: " <b> 1.3. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Học **Module 03-01:** Compute VM on AWS <br> - Tìm hiểu Amazon EC2 và các loại Instance Type                                            | 15/06/2026   | 15/06/2026      |
-| 3   | - Học **Module 03-01-02:** AMI, Backup và Key Pair <br> - Học **Module 03-01-03:** Amazon Elastic Block Store (EBS)                       | 16/06/2026   | 16/06/2026      |
-| 4   | - Học **Module 03-01-04:** Instance Store <br> - Học **Module 03-01-05:** User Data <br> - Học **Module 03-01-06:** Instance Metadata     | 17/06/2026   | 17/06/2026      |
-| 5   | - Học **Module 03-01-07:** EC2 Auto Scaling <br> - Học **Module 03-02:** Amazon EFS, Amazon FSx, Amazon Lightsail và AWS MGN              | 18/06/2026   | 18/06/2026      |
-| 6   | - Thực hành tạo và cấu hình EC2 Instance <br> - Kết nối EC2 bằng SSH <br> - Gắn và quản lý EBS Volume <br> - Cấu hình Auto Scaling cơ bản | 19/06/2026   | 19/06/2026      |
+| Thứ | Công việc                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Học **Module 03-01:** Compute VM on AWS <br> - Tìm hiểu Amazon EC2 và các loại Instance Type                                            | 15/06/2026   | 15/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Học **Module 03-01-02:** AMI, Backup và Key Pair <br> - Học **Module 03-01-03:** Amazon Elastic Block Store (EBS)                       | 16/06/2026   | 16/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Học **Module 03-01-04:** Instance Store <br> - Học **Module 03-01-05:** User Data <br> - Học **Module 03-01-06:** Instance Metadata     | 17/06/2026   | 17/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học **Module 03-01-07:** EC2 Auto Scaling <br> - Học **Module 03-02:** Amazon EFS, Amazon FSx, Amazon Lightsail và AWS MGN              | 18/06/2026   | 18/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Thực hành tạo và cấu hình EC2 Instance <br> - Kết nối EC2 bằng SSH <br> - Gắn và quản lý EBS Volume <br> - Cấu hình Auto Scaling cơ bản | 19/06/2026   | 19/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

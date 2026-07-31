@@ -17,13 +17,13 @@ pre: " <b> 1.2. </b> "
 
 ### Tasks for This Week
 
-| Day       | Tasks                                                                                                                                                                               | Start Date | Completion Date | Reference Material |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| Monday    | - Study **Module 02-01:** AWS Virtual Private Cloud <br> - Learn about VPC architecture, CIDR Blocks, Public Subnets, and Private Subnets                                           | 08/06/2026 | 08/06/2026      |
-| Tuesday   | - Continue **Module 02-01** <br> - Learn about Route Tables, Internet Gateway (IGW), NAT Gateway, and Elastic IP                                                                    | 09/06/2026 | 09/06/2026      |
-| Wednesday | - Study **Module 02-02:** VPC Security and Multi-VPC Features <br> - Learn about Security Groups, Network ACLs, and VPC Peering                                                     | 10/06/2026 | 10/06/2026      |
-| Thursday  | - Study **Module 02-03:** VPN, AWS Direct Connect, Elastic Load Balancer, and additional networking resources <br> - Explore Hybrid Cloud connectivity solutions                    | 11/06/2026 | 11/06/2026      |
-| Friday    | - Practice building a complete VPC environment <br> - Configure Public/Private Subnets, Route Tables, and Security Groups <br> - Test connectivity between resources within the VPC | 12/06/2026 | 12/06/2026      |
+| Day       | Tasks                                                                                                                                                                               | Start Date | Completion Date | Reference Material                        |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Monday    | - Study **Module 02-01:** AWS Virtual Private Cloud <br> - Learn about VPC architecture, CIDR Blocks, Public Subnets, and Private Subnets                                           | 08/06/2026 | 08/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Tuesday   | - Continue **Module 02-01** <br> - Learn about Route Tables, Internet Gateway (IGW), NAT Gateway, and Elastic IP                                                                    | 09/06/2026 | 09/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wednesday | - Study **Module 02-02:** VPC Security and Multi-VPC Features <br> - Learn about Security Groups, Network ACLs, and VPC Peering                                                     | 10/06/2026 | 10/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thursday  | - Study **Module 02-03:** VPN, AWS Direct Connect, Elastic Load Balancer, and additional networking resources <br> - Explore Hybrid Cloud connectivity solutions                    | 11/06/2026 | 11/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Friday    | - Practice building a complete VPC environment <br> - Configure Public/Private Subnets, Route Tables, and Security Groups <br> - Test connectivity between resources within the VPC | 12/06/2026 | 12/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

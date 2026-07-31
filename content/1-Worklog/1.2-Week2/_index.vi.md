@@ -17,13 +17,13 @@ pre: " <b> 1.2. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Học **Module 02-01:** AWS Virtual Private Cloud <br> - Tìm hiểu kiến trúc VPC, CIDR Block, Public Subnet và Private Subnet                              | 08/06/2026   | 08/06/2026      |
-| 3   | - Tiếp tục **Module 02-01** <br> - Tìm hiểu Route Table, Internet Gateway (IGW), NAT Gateway và Elastic IP                                                | 09/06/2026   | 09/06/2026      |
-| 4   | - Học **Module 02-02:** VPC Security and Multi-VPC Features <br> - Tìm hiểu Security Group, Network ACL và VPC Peering                                    | 10/06/2026   | 10/06/2026      |
-| 5   | - Học **Module 02-03:** VPN, AWS Direct Connect, Elastic Load Balancer và các tài nguyên mở rộng <br> - Tìm hiểu các phương thức kết nối Hybrid Cloud     | 11/06/2026   | 11/06/2026      |
-| 6   | - Thực hành tạo VPC hoàn chỉnh <br> - Cấu hình Public/Private Subnet, Route Table và Security Group <br> - Kiểm tra kết nối giữa các tài nguyên trong VPC | 12/06/2026   | 12/06/2026      |
+| Thứ | Công việc                                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Học **Module 02-01:** AWS Virtual Private Cloud <br> - Tìm hiểu kiến trúc VPC, CIDR Block, Public Subnet và Private Subnet                              | 08/06/2026   | 08/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Tiếp tục **Module 02-01** <br> - Tìm hiểu Route Table, Internet Gateway (IGW), NAT Gateway và Elastic IP                                                | 09/06/2026   | 09/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Học **Module 02-02:** VPC Security and Multi-VPC Features <br> - Tìm hiểu Security Group, Network ACL và VPC Peering                                    | 10/06/2026   | 10/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học **Module 02-03:** VPN, AWS Direct Connect, Elastic Load Balancer và các tài nguyên mở rộng <br> - Tìm hiểu các phương thức kết nối Hybrid Cloud     | 11/06/2026   | 11/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Thực hành tạo VPC hoàn chỉnh <br> - Cấu hình Public/Private Subnet, Route Table và Security Group <br> - Kiểm tra kết nối giữa các tài nguyên trong VPC | 12/06/2026   | 12/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

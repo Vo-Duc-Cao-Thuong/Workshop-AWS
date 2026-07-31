@@ -17,13 +17,13 @@ pre: " <b> 1.5. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc                                                                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Học **Module 05-01:** Shared Responsibility Model <br> - Tìm hiểu trách nhiệm của AWS và khách hàng trong việc bảo mật hệ thống                              | 29/06/2026   | 29/06/2026      |
-| 3   | - Học **Module 05-02:** AWS Identity and Access Management (IAM) <br> - Thực hành tạo User, Group, Role và Policy                                              | 30/06/2026   | 30/06/2026      |
-| 4   | - Học **Module 05-03:** Amazon Cognito <br> - Học **Module 05-04:** AWS Organizations                                                                          | 01/07/2026   | 01/07/2026      |
-| 5   | - Học **Module 05-05:** AWS IAM Identity Center <br> - Học **Module 05-06:** AWS Key Management Service (KMS)                                                  | 02/07/2026   | 02/07/2026      |
-| 6   | - Học **Module 05-07:** AWS Security Hub <br> - Hoàn thành **Module 05-08:** Hands-on và nghiên cứu bổ sung <br> - Thực hành cấu hình IAM, KMS và Security Hub | 03/07/2026   | 03/07/2026      |
+| Thứ | Công việc                                                                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Học **Module 05-01:** Shared Responsibility Model <br> - Tìm hiểu trách nhiệm của AWS và khách hàng trong việc bảo mật hệ thống                              | 29/06/2026   | 29/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Học **Module 05-02:** AWS Identity and Access Management (IAM) <br> - Thực hành tạo User, Group, Role và Policy                                              | 30/06/2026   | 30/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Học **Module 05-03:** Amazon Cognito <br> - Học **Module 05-04:** AWS Organizations                                                                          | 01/07/2026   | 01/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học **Module 05-05:** AWS IAM Identity Center <br> - Học **Module 05-06:** AWS Key Management Service (KMS)                                                  | 02/07/2026   | 02/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Học **Module 05-07:** AWS Security Hub <br> - Hoàn thành **Module 05-08:** Hands-on và nghiên cứu bổ sung <br> - Thực hành cấu hình IAM, KMS và Security Hub | 03/07/2026   | 03/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

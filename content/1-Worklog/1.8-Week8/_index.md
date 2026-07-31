@@ -17,13 +17,13 @@ pre: " <b> 1.8. </b> "
 
 ### Tasks for This Week
 
-| Day       | Tasks                                                                                                                                         | Start Date | Completion Date | Reference Material |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| Monday    | - Review the knowledge covered in **Modules 01–07** <br> - Develop the deployment plan for the final project                                  | 20/07/2026 | 20/07/2026      |
-| Tuesday   | - Deploy AWS services required for the final project <br> - Configure the infrastructure and necessary AWS resources                          | 21/07/2026 | 21/07/2026      |
-| Wednesday | - Perform system testing <br> - Configure monitoring using **Amazon CloudWatch** and log management with **Amazon CloudWatch Logs**           | 22/07/2026 | 22/07/2026      |
-| Thursday  | - Evaluate system performance and resource utilization <br> - Analyze costs using **AWS Cost Explorer** and optimize the system configuration | 23/07/2026 | 23/07/2026      |
-| Friday    | - Finalize the capstone project <br> - Prepare the project report, technical documentation, and presentation                                  | 24/07/2026 | 24/07/2026      |
+| Day       | Tasks                                                                                                                                         | Start Date | Completion Date | Reference Material                        |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
+| Monday    | - Review the knowledge covered in **Modules 01–07** <br> - Develop the deployment plan for the final project                                  | 20/07/2026 | 20/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Tuesday   | - Deploy AWS services required for the final project <br> - Configure the infrastructure and necessary AWS resources                          | 21/07/2026 | 21/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wednesday | - Perform system testing <br> - Configure monitoring using **Amazon CloudWatch** and log management with **Amazon CloudWatch Logs**           | 22/07/2026 | 22/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thursday  | - Evaluate system performance and resource utilization <br> - Analyze costs using **AWS Cost Explorer** and optimize the system configuration | 23/07/2026 | 23/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Friday    | - Finalize the capstone project <br> - Prepare the project report, technical documentation, and presentation                                  | 24/07/2026 | 24/07/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

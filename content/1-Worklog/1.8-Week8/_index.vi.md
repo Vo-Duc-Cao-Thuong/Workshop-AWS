@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 8"
-date: 2026-06-08
+date: 2026-07-20
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -17,13 +17,13 @@ pre: " <b> 1.8. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Tổng hợp kiến thức từ các Module 01 đến Module 07 <br> - Xây dựng kế hoạch triển khai dự án cuối khóa                   | 03/08/2026   | 03/08/2026      |
-| 3   | - Triển khai các dịch vụ AWS phục vụ dự án <br> - Cấu hình hạ tầng và các tài nguyên cần thiết                            | 04/08/2026   | 04/08/2026      |
-| 4   | - Kiểm thử hệ thống <br> - Cấu hình giám sát bằng Amazon CloudWatch và theo dõi nhật ký với Amazon CloudWatch Logs        | 05/08/2026   | 05/08/2026      |
-| 5   | - Đánh giá hiệu năng và mức sử dụng tài nguyên <br> - Kiểm tra chi phí bằng AWS Cost Explorer và tối ưu cấu hình hệ thống | 06/08/2026   | 06/08/2026      |
-| 6   | - Hoàn thiện dự án cuối khóa <br> - Chuẩn bị báo cáo, tài liệu và trình bày kết quả dự án                                 | 07/08/2026   | 07/08/2026      |
+| Thứ | Công việc                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Tổng hợp kiến thức từ các Module 01 đến Module 07 <br> - Xây dựng kế hoạch triển khai dự án cuối khóa                   | 03/08/2026   | 03/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Triển khai các dịch vụ AWS phục vụ dự án <br> - Cấu hình hạ tầng và các tài nguyên cần thiết                            | 04/08/2026   | 04/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Kiểm thử hệ thống <br> - Cấu hình giám sát bằng Amazon CloudWatch và theo dõi nhật ký với Amazon CloudWatch Logs        | 05/08/2026   | 05/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Đánh giá hiệu năng và mức sử dụng tài nguyên <br> - Kiểm tra chi phí bằng AWS Cost Explorer và tối ưu cấu hình hệ thống | 06/08/2026   | 06/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Hoàn thiện dự án cuối khóa <br> - Chuẩn bị báo cáo, tài liệu và trình bày kết quả dự án                                 | 07/08/2026   | 07/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 
