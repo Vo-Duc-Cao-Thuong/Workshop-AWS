@@ -1,59 +1,63 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần 8
 
-### Mục tiêu tuần 8:
+- Tổng hợp và vận dụng kiến thức đã học trong chương trình First Cloud AI Journey.
+- Triển khai dự án cuối khóa trên nền tảng AWS.
+- Tìm hiểu các dịch vụ giám sát, ghi log và vận hành hệ thống.
+- Đánh giá hiệu năng, chi phí và mức độ sẵn sàng của hệ thống sau khi triển khai.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc cần triển khai trong tuần này
 
+| Thứ | Công việc                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Tổng hợp kiến thức từ các Module 01 đến Module 07 <br> - Xây dựng kế hoạch triển khai dự án cuối khóa                   | 03/08/2026   | 03/08/2026      |
+| 3   | - Triển khai các dịch vụ AWS phục vụ dự án <br> - Cấu hình hạ tầng và các tài nguyên cần thiết                            | 04/08/2026   | 04/08/2026      |
+| 4   | - Kiểm thử hệ thống <br> - Cấu hình giám sát bằng Amazon CloudWatch và theo dõi nhật ký với Amazon CloudWatch Logs        | 05/08/2026   | 05/08/2026      |
+| 5   | - Đánh giá hiệu năng và mức sử dụng tài nguyên <br> - Kiểm tra chi phí bằng AWS Cost Explorer và tối ưu cấu hình hệ thống | 06/08/2026   | 06/08/2026      |
+| 6   | - Hoàn thiện dự án cuối khóa <br> - Chuẩn bị báo cáo, tài liệu và trình bày kết quả dự án                                 | 07/08/2026   | 07/08/2026      |
 
-### Kết quả đạt được tuần 8:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Kết quả đạt được tuần 8
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Tổng hợp và hệ thống hóa kiến thức đã học trong suốt chương trình First Cloud AI Journey.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Hoàn thành dự án cuối khóa bằng cách kết hợp nhiều dịch vụ AWS đã học như:
+    - Amazon EC2
+    - Amazon VPC
+    - Amazon S3
+    - Amazon RDS
+    - AWS IAM
+    - AWS Lambda
+    - Amazon DynamoDB
+    - AWS Glue
+    - Amazon Athena
+    - Amazon QuickSight
+    - Các dịch vụ liên quan khác
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Hiểu quy trình triển khai một hệ thống trên nền tảng AWS từ khâu thiết kế, cấu hình, kiểm thử đến vận hành.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Làm quen với các dịch vụ giám sát và vận hành hệ thống:
+    - Amazon CloudWatch
+    - CloudWatch Logs
+    - CloudWatch Metrics
+    - CloudWatch Alarms
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Biết cách theo dõi hiệu năng hệ thống, phát hiện sự cố và phân tích nhật ký hoạt động.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Thực hiện đánh giá chi phí triển khai thông qua AWS Cost Explorer và áp dụng một số phương pháp tối ưu tài nguyên nhằm giảm chi phí vận hành.
 
+- Hoàn thiện tài liệu kỹ thuật, báo cáo kết quả và chuẩn bị nội dung trình bày dự án cuối khóa.
 
+- Nâng cao kỹ năng triển khai, quản lý và vận hành các dịch vụ AWS, đồng thời hiểu được quy trình xây dựng một giải pháp Cloud hoàn chỉnh từ thiết kế đến đưa vào vận hành.
+
+- Kết thúc chương trình First Cloud AI Journey với nền tảng kiến thức về Cloud Computing, sẵn sàng tiếp tục nghiên cứu các chứng chỉ AWS và tham gia các dự án thực tế.

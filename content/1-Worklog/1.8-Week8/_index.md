@@ -1,57 +1,63 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-20
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 8 Objectives
 
-### Week 8 Objectives:
+- Consolidate and apply the knowledge acquired throughout the **First Cloud AI Journey** program.
+- Deploy the final project on the AWS platform.
+- Explore AWS monitoring, logging, and operational services.
+- Evaluate the system's performance, cost, and availability after deployment.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks for This Week
 
+| Day       | Tasks                                                                                                                                         | Start Date | Completion Date | Reference Material |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| Monday    | - Review the knowledge covered in **Modules 01–07** <br> - Develop the deployment plan for the final project                                  | 20/07/2026 | 20/07/2026      |
+| Tuesday   | - Deploy AWS services required for the final project <br> - Configure the infrastructure and necessary AWS resources                          | 21/07/2026 | 21/07/2026      |
+| Wednesday | - Perform system testing <br> - Configure monitoring using **Amazon CloudWatch** and log management with **Amazon CloudWatch Logs**           | 22/07/2026 | 22/07/2026      |
+| Thursday  | - Evaluate system performance and resource utilization <br> - Analyze costs using **AWS Cost Explorer** and optimize the system configuration | 23/07/2026 | 23/07/2026      |
+| Friday    | - Finalize the capstone project <br> - Prepare the project report, technical documentation, and presentation                                  | 24/07/2026 | 24/07/2026      |
 
-### Week 8 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 8 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- Consolidated and organized the knowledge acquired throughout the **First Cloud AI Journey** program.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Successfully completed the capstone project by integrating multiple AWS services, including:
+    - Amazon EC2
+    - Amazon VPC
+    - Amazon S3
+    - Amazon RDS
+    - AWS Identity and Access Management (IAM)
+    - AWS Lambda
+    - Amazon DynamoDB
+    - AWS Glue
+    - Amazon Athena
+    - Amazon QuickSight
+    - Other related AWS services
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Gained a comprehensive understanding of the AWS deployment lifecycle, from solution design and infrastructure configuration to system testing and operational management.
 
-* Used AWS CLI to perform basic operations such as:
+- Became familiar with AWS monitoring and operations services, including:
+    - Amazon CloudWatch
+    - Amazon CloudWatch Logs
+    - Amazon CloudWatch Metrics
+    - Amazon CloudWatch Alarms
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Learned how to monitor system performance, detect operational issues, and analyze application and infrastructure logs.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Evaluated deployment costs using **AWS Cost Explorer** and applied resource optimization strategies to reduce operational expenses.
+
+- Completed the technical documentation, project report, and presentation materials for the capstone project.
+
+- Strengthened practical skills in deploying, managing, and operating AWS services, while gaining a deeper understanding of the end-to-end process of building and maintaining a cloud-based solution.
+
+- Successfully completed the **First Cloud AI Journey** program with a solid foundation in **Cloud Computing**, and is well prepared to pursue AWS certifications and participate in real-world cloud projects.

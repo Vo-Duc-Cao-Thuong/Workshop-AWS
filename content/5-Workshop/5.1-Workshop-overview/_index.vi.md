@@ -1,19 +1,29 @@
 ---
-title : "Giới thiệu"
-date : 2024-01-01 
+title : "Tổng quan Workshop & Kiến trúc"
+date : 2026-07-24
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+#### Giới thiệu về Fav Web Portal
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+**Fav Web Portal** là một ứng dụng Web đa dịch vụ được thiết kế với kiến trúc hiện đại, kết hợp khả năng xác thực sinh trắc học (Face ID AI Recognition) và các dịch vụ truyền thông đa phương tiện.
 
-#### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+Ứng dụng đáp ứng các yêu cầu:
+- **Tính sẵn sàng cao & Tối ưu chi phí:** Phân tách Frontend tĩnh (Amazon S3 Static Website Hosting) và Backend tính toán (Amazon EC2 Docker Container).
+- **An toàn bảo mật:** Áp dụng mô hình xác thực sinh trắc học + JWT token với cơ chế cookie & Bearer token header fallback, tuân thủ nghiêm ngặt quy định CORS và Content Security Policy (CSP).
+- **Lưu trữ dữ liệu mở rộng:** Sử dụng Amazon S3 lưu trữ các tệp media và vector đặc trưng khuôn mặt (`.npy`).
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+#### Giao diện thực tế Ứng dụng (Fav Web Portal)
+
+![Giao diện Trang chủ Fav Web Portal](/images/dashboard.png)
+
+#### Tổng quan về Mô hình Triển khai AWS Architecture
+
+![Architecture](/images/aws_architecture.png)
+
+1. **Client (Browser):** Người dùng truy cập website qua tên miền S3 Bucket Static Hosting (`fav-web-frontend-bucket`).
+2. **Frontend Layer (AWS S3 Static Web):** Chạy ứng dụng React/Vite được build tối ưu, tự động gọi API tới Backend EC2.
+3. **Backend Layer (AWS EC2 Instance):** Vận hành container Docker chứa ứng dụng FastAPI + Uvicorn + Mô hình Deep Learning Face Recognition (`facenet-pytorch`/`insightface`).
+4. **Database & Storage Layer (AWS RDS / S3):** Lưu trữ dữ liệu quan hệ người dùng, bài đăng, bản ghi âm nhạc/game và lưu trữ tệp đa phương tiện trên S3 Object Storage.

@@ -1,57 +1,59 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 2 Objectives
 
-### Week 2 Objectives:
+- Understand AWS networking architecture with **Amazon Virtual Private Cloud (Amazon VPC)**.
+- Learn how to design and configure VPCs, Subnets, Route Tables, and Internet Gateways.
+- Explore network security mechanisms within Amazon VPC.
+- Understand connectivity options between on-premises infrastructure and AWS.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks for This Week
 
+| Day       | Tasks                                                                                                                                                                               | Start Date | Completion Date | Reference Material |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| Monday    | - Study **Module 02-01:** AWS Virtual Private Cloud <br> - Learn about VPC architecture, CIDR Blocks, Public Subnets, and Private Subnets                                           | 08/06/2026 | 08/06/2026      |
+| Tuesday   | - Continue **Module 02-01** <br> - Learn about Route Tables, Internet Gateway (IGW), NAT Gateway, and Elastic IP                                                                    | 09/06/2026 | 09/06/2026      |
+| Wednesday | - Study **Module 02-02:** VPC Security and Multi-VPC Features <br> - Learn about Security Groups, Network ACLs, and VPC Peering                                                     | 10/06/2026 | 10/06/2026      |
+| Thursday  | - Study **Module 02-03:** VPN, AWS Direct Connect, Elastic Load Balancer, and additional networking resources <br> - Explore Hybrid Cloud connectivity solutions                    | 11/06/2026 | 11/06/2026      |
+| Friday    | - Practice building a complete VPC environment <br> - Configure Public/Private Subnets, Route Tables, and Security Groups <br> - Test connectivity between resources within the VPC | 12/06/2026 | 12/06/2026      |
 
-### Week 2 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 2 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- Developed a solid understanding of **Amazon Virtual Private Cloud (Amazon VPC)** architecture and its role in AWS networking.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Gained the ability to design and configure the fundamental components of a VPC, including:
+    - VPC
+    - CIDR Block
+    - Public Subnet
+    - Private Subnet
+    - Route Table
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Understood the functions of key networking components, including:
+    - Internet Gateway (IGW)
+    - NAT Gateway
+    - Elastic IP
 
-* Used AWS CLI to perform basic operations such as:
+- Learned the core network security mechanisms in AWS, including:
+    - Security Groups
+    - Network Access Control Lists (Network ACLs)
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Understood how to connect multiple VPCs and integrate on-premises infrastructure with AWS using:
+    - VPC Peering
+    - VPN Connection
+    - AWS Direct Connect
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Became familiar with **Elastic Load Balancing (ELB)** and its role in distributing incoming application traffic across multiple resources.
+
+- Successfully completed a hands-on lab by building a basic AWS networking environment, including a VPC, Subnets, Route Tables, and Security Groups.
+
+- Prepared to deploy compute services such as **Amazon EC2** on the configured network infrastructure in the following weeks.

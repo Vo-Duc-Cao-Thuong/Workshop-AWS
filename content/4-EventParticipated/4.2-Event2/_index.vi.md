@@ -6,120 +6,124 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch sự kiện “COMMUNITY DAY 13/06/2026” từ bản diễn thuyết về "What Does a DevOps Engineer Really Do?"
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+Chia sẻ thông tin cụ thể hơn về vai trò thực tế của một DevOps Engineer trong doanh nghiệp. Thay vì chỉ tập trung vào các công cụ kỹ thuật, diễn giả đã chia sẻ những kinh nghiệm thực tế về tư duy làm việc, lộ trình học tập cũng như những kỹ năng cần thiết để phát triển trong lĩnh vực DevOps.
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Trọng H. Trương** - DevOps Engineer tại Endava Vietnam
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### DevOps có thực sự là một nghề?
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+Mở đầu buổi chia sẻ, diễn giả đặt ra câu hỏi: "DevOps Engineer thực sự làm công việc gì?"
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Theo quan điểm của nhiều người, DevOps thường được gắn với các công việc như:
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Xây dựng CI/CD Pipeline.
+- Quản lý Docker và Kubernetes.
+- Làm việc với các dịch vụ Cloud như AWS hoặc Azure.
+- Viết Infrastructure as Code (IaC).
+- Giám sát hệ thống bằng các công cụ Monitoring và Logging.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Tuy nhiên, diễn giả cho rằng đây chỉ là những công cụ hỗ trợ công việc. Điều quan trọng hơn là DevOps đóng vai trò kết nối giữa đội ngũ phát triển phần mềm và đội ngũ vận hành hệ thống nhằm giúp quá trình phát triển, kiểm thử và triển khai phần mềm diễn ra nhanh chóng, ổn định và hiệu quả hơn.
 
-#### Domain-Driven Design (DDD)
+#### Hiểu đúng về công việc của DevOps Engineer
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Diễn giả chia sẻ rằng nhiều người thường hiểu sai về DevOps và cho rằng DevOps chỉ là:
 
-#### Event-Driven Architecture
+- Người triển khai phần mềm.
+- Chuyên gia Docker hoặc Kubernetes.
+- Người chịu trách nhiệm xử lý sự cố khi hệ thống gặp lỗi.
+- Kỹ sư Cloud.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Trên thực tế, DevOps là người giúp tối ưu toàn bộ quy trình phát triển phần mềm bằng cách:
 
-#### Compute Evolution
+- Tự động hóa các công việc lặp lại.
+- Xây dựng quy trình triển khai ổn định.
+- Hỗ trợ các nhóm phát triển và vận hành phối hợp hiệu quả.
+- Đảm bảo hệ thống có khả năng mở rộng, giám sát và phục hồi khi xảy ra sự cố.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Nên bắt đầu học DevOps từ đâu?
 
-#### Amazon Q Developer
+Một nội dung rất hữu ích trong buổi chia sẻ là lộ trình học tập dành cho người mới.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Diễn giả nhấn mạnh rằng thay vì học quá nhiều công cụ cùng lúc, người học nên tập trung xây dựng nền tảng kiến thức trước.
+
+Các kiến thức cốt lõi bao gồm:
+
+- Hệ điều hành Linux.
+- Kiến thức cơ bản về mạng máy tính.
+- Ngôn ngữ lập trình như Python hoặc Golang.
+- Git và quy trình CI/CD.
+- Docker và công nghệ Container.
+
+Bên cạnh đó, người học cần hiểu rõ cách một ứng dụng hoạt động từ lúc được xây dựng, kiểm thử, triển khai đến khi vận hành trên môi trường thực tế.
+
+Diễn giả cũng khuyến khích mỗi người nên tự xây dựng các dự án nhỏ để thực hành như:
+
+- Triển khai một ứng dụng đơn giản.
+- Tự động hóa một số tác vụ.
+- Thiết lập hệ thống giám sát.
+- Chủ động tạo lỗi và tìm cách khắc phục.
+
+#### Những bài học từ kinh nghiệm thực tế
+
+Một trong những phần tôi ấn tượng nhất là những kinh nghiệm mà diễn giả rút ra sau nhiều năm làm việc.
+
+Một số bài học quan trọng bao gồm:
+
+- Không nên chỉ sao chép các câu lệnh mà cần hiểu rõ nguyên lý hoạt động.
+- Luôn xác định đúng nguyên nhân của vấn đề trước khi tìm cách giải quyết.
+- Đặt câu hỏi "Tại sao?" trước khi hỏi "Làm như thế nào?".
+- Kỹ năng giao tiếp và trao đổi với đồng nghiệp cũng quan trọng không kém kỹ năng kỹ thuật.
+- DevOps không phải là người luôn giải cứu hệ thống một mình mà cần xây dựng quy trình để hạn chế sự cố ngay từ đầu.
+
+#### Điều gì tạo nên một DevOps Engineer giỏi?
+
+Ở phần cuối buổi chia sẻ, diễn giả tổng kết những phẩm chất cần có của một DevOps Engineer.
+
+Theo anh, công nghệ luôn thay đổi nhưng nền tảng kiến thức sẽ luôn có giá trị. Vì vậy, mỗi kỹ sư cần:
+
+- Không ngừng học hỏi và cập nhật kiến thức mới.
+- Có tư duy hệ thống thay vì chỉ tập trung vào từng công việc riêng lẻ.
+- Chủ động tự động hóa các công việc lặp lại.
+- Xây dựng quy trình rõ ràng để hỗ trợ cả nhóm làm việc hiệu quả hơn.
+- Biết tận dụng AI như một công cụ hỗ trợ thay vì phụ thuộc hoàn toàn vào nó.
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+Sau khi tham gia buổi chia sẻ, tôi đã học được nhiều kiến thức bổ ích, bao gồm:
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Hiểu đúng vai trò của DevOps trong quy trình phát triển phần mềm.
+- Biết được lộ trình học tập phù hợp để bắt đầu với DevOps.
+- Nhận thức được tầm quan trọng của Linux, Networking, Git và Docker.
+- Hiểu rằng nền tảng kiến thức luôn quan trọng hơn việc chạy theo quá nhiều công cụ.
+- Biết cách xây dựng các dự án thực tế để nâng cao kỹ năng.
+- Nhận ra giá trị của kỹ năng giao tiếp, làm việc nhóm và tư duy hệ thống trong môi trường doanh nghiệp.
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Những nội dung được chia sẻ trong sự kiện sẽ giúp tôi định hướng rõ ràng hơn trong quá trình học tập và phát triển nghề nghiệp.
+
+Trong thời gian tới, tôi sẽ:
+
+- Củng cố kiến thức về Linux và mạng máy tính.
+- Tiếp tục thực hành Git, Docker và quy trình CI/CD.
+- Xây dựng các dự án cá nhân để hiểu rõ hơn về quy trình triển khai ứng dụng.
+- Tìm hiểu thêm về AWS và các dịch vụ Cloud.
+- Rèn luyện kỹ năng phân tích sự cố và tư duy giải quyết vấn đề thay vì chỉ ghi nhớ câu lệnh.
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Buổi chia sẻ đã mang đến cho tôi góc nhìn thực tế về nghề DevOps, khác với những gì tôi từng hình dung trước đây. Thay vì chỉ tập trung giới thiệu các công cụ, diễn giả nhấn mạnh đến tư duy làm việc, khả năng học hỏi và tinh thần hợp tác trong môi trường doanh nghiệp. Điều này giúp tôi nhận ra rằng để trở thành một DevOps Engineer giỏi, ngoài kiến thức kỹ thuật còn cần có kỹ năng giao tiếp, khả năng tự học và tư duy cải tiến liên tục.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+Những kinh nghiệm thực tế được chia sẻ cũng giúp tôi có thêm động lực để xây dựng nền tảng kiến thức vững chắc, chủ động thực hành thông qua các dự án cá nhân và định hướng rõ ràng hơn cho con đường phát triển nghề nghiệp trong lĩnh vực Cloud và DevOps.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+
+- Bởi vì các buổi đầu tôi chưa được phổ biến về việc tham gia event nên chụp hình ảnh sự kiện nên tôi không có hình ảnh trực quan.

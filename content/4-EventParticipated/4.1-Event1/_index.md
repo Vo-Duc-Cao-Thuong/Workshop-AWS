@@ -6,121 +6,133 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “COMMUNITY DAY 06/06/2026": From IT Helpdesk to Senior Sysadmin
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+This sharing session was organized to provide students and newcomers to the Information Technology industry with practical insights into the career path from IT Helpdesk to System Administrator, while also introducing the transition toward Cloud Computing and DevOps. Through the speaker's real-world experiences, participants gained a better understanding of the technical skills, professional mindset, and long-term career development required in the IT infrastructure field.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Tran Trung Vinh** – System Administrator at Central Retail Group
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Career Journey: From IT Helpdesk to System Administrator
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The speaker began by sharing his personal career journey. He started as an IT Helpdesk engineer without any significant advantages or a degree from a prestigious university. Through continuous self-learning, hands-on practice, and years of experience, he gradually advanced to become a System Administrator.
 
-#### Transitioning to modern application architecture – Microservices
+During his time as an IT Helpdesk engineer, he developed several essential skills, including:
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Troubleshooting technical issues efficiently under pressure.
+- Communicating effectively with end users.
+- Analytical thinking and problem-solving skills.
+- Understanding how enterprise IT systems operate.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+The turning point in his career came when he proactively learned Linux, Computer Networking, and built his own home lab environment to practice system administration. This experience helped him realize that his passion extended beyond user support—he wanted to understand how IT infrastructures are designed, deployed, and maintained.
 
-#### Domain-Driven Design (DDD)
+#### Responsibilities of a System Administrator
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+The speaker then described the daily responsibilities of a System Administrator. The role involves much more than simply managing servers, including:
 
-#### Event-Driven Architecture
+- Deploying and maintaining server infrastructure.
+- Managing network systems.
+- Applying security patches and updates.
+- Monitoring system performance and availability.
+- Planning resource expansion based on business needs.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+One memorable lesson he emphasized was never to test new configurations directly in a production environment, as even a small mistake can have a significant impact on business operations and end users.
 
-#### Compute Evolution
+#### Transitioning to Cloud Computing and DevOps
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+After several years of working with traditional on-premises infrastructure, the speaker began exploring Cloud Computing and DevOps technologies.
 
-#### Amazon Q Developer
+According to him, cloud computing is not merely a new technology but also represents a new way of thinking about system deployment and operations.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+Some of the key advantages of cloud platforms include:
+
+- Replacing physical servers with flexible cloud services.
+- Scaling resources up or down based on actual demand.
+- Optimizing operational costs through a pay-as-you-go pricing model.
+- Utilizing fully managed services provided by cloud vendors.
+
+The speaker also introduced several essential DevOps technologies, such as:
+
+- Infrastructure as Code (Terraform)
+- Docker and Containerization
+- Version Control Systems
+- CI/CD Pipelines
+- Deployment Automation
+
+#### Interview Experience
+
+The speaker also shared his experience during the recruitment process at Central Retail Group.
+
+He explained that employers value practical experience and problem-solving abilities far more than simply possessing numerous certifications.
+
+Before attending an interview, candidates should:
+
+- Research the company thoroughly.
+- Understand the technologies and systems the company uses.
+- Prepare personal projects that demonstrate their technical skills.
+
+Technical interviews may include topics such as:
+
+- System architecture design.
+- Troubleshooting real-world incidents.
+- System analysis and problem-solving scenarios.
+
+#### Advice for Beginners
+
+At the end of the session, the speaker shared valuable advice for students and beginners entering the IT industry.
+
+Some common mistakes include:
+
+- Trying to learn too many technologies simultaneously.
+- Focusing only on theory without sufficient hands-on practice.
+- Hesitating to ask questions when facing difficulties.
+- Avoiding challenges due to fear of failure.
+
+To build a sustainable career, he recommended:
+
+- Mastering one or two core skills before expanding to other technologies.
+- Building practical projects.
+- Creating a professional portfolio.
+- Continuously learning and improving technical expertise.
+
+His closing message was:
+
+"Your starting point does not determine your success. What truly matters is your persistence in learning and your willingness to keep moving forward."
 
 ### Key Takeaways
 
-#### Design Mindset
+After attending this session, I gained many valuable insights, including:
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- A clear understanding of the career progression from IT Helpdesk to System Administrator.
+- Recognition of the importance of Linux, networking, and hands-on practice in IT infrastructure.
+  Awareness of the value of automation and proper system documentation.
+- A broader understanding of Cloud Computing, DevOps, and Infrastructure as Code.
+- Realization that practical experience and personal projects often outweigh having numerous certifications.
+- A better understanding of long-term career development through continuous learning, deep technical knowledge, and consistent self-improvement.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+The knowledge gained from this event will help me establish a clearer learning path and career direction.
+
+In the near future, I plan to:
+
+- Continue improving my Linux and operating system knowledge.
+- Practice building virtual network and server environments.
+- Learn and apply Docker, Terraform, and AWS services.
+- Develop personal projects to strengthen my portfolio.
+- Improve my troubleshooting and system analysis skills.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+This was an inspiring and highly practical sharing session. What impressed me the most was that the speaker not only talked about his achievements but also openly shared the challenges, mistakes, and self-learning journey that shaped his career. This helped me realize that building a successful career in IT is a long-term process requiring persistence, curiosity, and continuous learning.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+The session also provided me with a much clearer picture of the career path from IT Support to System Administrator, and eventually toward Cloud Computing and DevOps. The speaker's real-world experiences and practical advice have motivated me to continue developing my technical skills and preparing myself for future career opportunities.
 
 #### Some event photos
-*Add your event photos here*  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+- Since I was not informed during the early internship sessions that participants were encouraged to take photos during events, I unfortunately do not have any photos from this event to include in this report.

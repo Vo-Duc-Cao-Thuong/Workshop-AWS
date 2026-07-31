@@ -6,120 +6,133 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch sự kiện “COMMUNITY DAY 06/06/2026” từ bản diễn thuyết về "From IT Helpdesk to Senior Sysadmin"
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+Chia sẻ một góc nhìn thực tế về lộ trình phát triển nghề nghiệp từ vị trí IT Helpdesk đến System Administrator, đồng thời giới thiệu những bước chuyển tiếp sang lĩnh vực Cloud Computing và DevOps. Thông qua kinh nghiệm thực tế của diễn giả, người tham dự có cơ hội hiểu rõ hơn về những kỹ năng cần trang bị, tư duy làm việc chuyên nghiệp cũng như định hướng phát triển lâu dài trong lĩnh vực hạ tầng CNTT.
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Trần Trung Vinh** - System Administrator tại Central Retail Group
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Hành trình từ IT Helpdesk đến System Administrator
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+Diễn giả mở đầu bằng câu chuyện phát triển nghề nghiệp của bản thân. Xuất phát điểm chỉ là một nhân viên IT Helpdesk, anh không có lợi thế đặc biệt hay nền tảng từ một trường đại học danh tiếng. Tuy nhiên, nhờ quá trình tự học, không ngừng thực hành và tích lũy kinh nghiệm, anh từng bước phát triển để trở thành một System Administrator.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Trong quá trình làm việc ở vị trí Helpdesk, những kỹ năng quan trọng được rèn luyện bao gồm:
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Khả năng xử lý sự cố nhanh chóng trong môi trường nhiều áp lực.
+- Kỹ năng giao tiếp với người dùng cuối.
+- Tư duy phân tích và giải quyết vấn đề.
+- Hiểu cách các hệ thống CNTT vận hành trong doanh nghiệp.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Bước ngoặt lớn nhất trong sự nghiệp đến từ việc chủ động học thêm Linux, Networking và xây dựng các môi trường thực hành riêng để nghiên cứu hạ tầng hệ thống. Chính quá trình này đã giúp diễn giả nhận ra rằng mục tiêu của mình không chỉ là hỗ trợ người dùng mà còn mong muốn hiểu cách các hệ thống được thiết kế, triển khai và vận hành.
 
-#### Domain-Driven Design (DDD)
+#### Công việc của một System Administrator
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Tiếp theo, diễn giả chia sẻ những công việc thường ngày của một System Administrator. Công việc không chỉ đơn thuần là quản lý máy chủ mà còn bao gồm:
 
-#### Event-Driven Architecture
+- Triển khai và bảo trì hệ thống máy chủ.
+- Quản lý hạ tầng mạng.
+- Cập nhật bản vá bảo mật.
+- Theo dõi hiệu năng hệ thống.
+- Lập kế hoạch mở rộng tài nguyên khi cần thiết.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Một bài học rất đáng nhớ được chia sẻ là không nên thử nghiệm trực tiếp trên môi trường Production, bởi chỉ một sai sót nhỏ cũng có thể ảnh hưởng đến toàn bộ hệ thống và người dùng.
 
-#### Compute Evolution
+#### Chuyển đổi sang Cloud và DevOps
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Sau nhiều năm làm việc với hạ tầng truyền thống (On-Premise), diễn giả bắt đầu tiếp cận các công nghệ Cloud và DevOps.
 
-#### Amazon Q Developer
+Theo anh, Cloud không chỉ là một công nghệ mới mà còn là sự thay đổi về tư duy triển khai và vận hành hệ thống.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Một số điểm khác biệt nổi bật bao gồm:
+
+- Thay vì quản lý máy chủ vật lý, doanh nghiệp có thể sử dụng các dịch vụ Cloud linh hoạt.
+- Tài nguyên có thể mở rộng hoặc thu hẹp theo nhu cầu thực tế.
+- Chi phí được tối ưu nhờ mô hình trả phí theo mức sử dụng.
+- Nhiều dịch vụ được quản lý hoàn toàn bởi nhà cung cấp Cloud.
+
+Bên cạnh đó, diễn giả cũng giới thiệu các công nghệ quan trọng trong hệ sinh thái DevOps như:
+
+- Infrastructure as Code (Terraform).
+- Docker và Containerization.
+- Version Control.
+- CI/CD Pipeline.
+- Tự động hóa quy trình triển khai.
+
+#### Kinh nghiệm tham gia phỏng vấn
+
+Diễn giả cũng chia sẻ quá trình ứng tuyển vào Central Retail Group.
+
+Theo anh, điều nhà tuyển dụng đánh giá cao không phải là số lượng chứng chỉ mà là khả năng áp dụng kiến thức vào các dự án thực tế.
+
+Trước mỗi buổi phỏng vấn cần:
+
+- Tìm hiểu kỹ về doanh nghiệp.
+- Nghiên cứu hệ thống và công nghệ mà công ty đang sử dụng.
+- Chuẩn bị các dự án cá nhân để minh chứng năng lực.
+
+Trong phần đánh giá kỹ thuật, ứng viên có thể gặp các nội dung như:
+
+- Thiết kế kiến trúc hệ thống.
+- Xử lý các tình huống sự cố.
+- Khả năng phân tích và khắc phục lỗi.
+
+#### Những lời khuyên dành cho người mới
+
+Ở phần cuối chương trình, diễn giả chia sẻ nhiều lời khuyên hữu ích dành cho sinh viên và những người mới bắt đầu.
+
+Một số sai lầm phổ biến bao gồm:
+
+- Học quá nhiều công nghệ cùng một lúc.
+- Chỉ học lý thuyết mà thiếu thực hành.
+- Ngại đặt câu hỏi khi chưa hiểu.
+- Sợ thất bại nên không dám thử sức.
+
+Để phát triển bền vững, diễn giả khuyến khích nên:
+
+- Tập trung đào sâu một hoặc hai kỹ năng cốt lõi trước.
+- Xây dựng các dự án thực tế.
+- Tạo portfolio để thể hiện năng lực.
+- Không ngừng học hỏi và tích lũy kinh nghiệm.
+
+Thông điệp cuối cùng mà diễn giả gửi đến mọi người là:
+
+"Điểm xuất phát không quyết định thành công của bạn. Điều quan trọng là luôn kiên trì học hỏi và không ngừng tiến về phía trước."
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+Sau khi tham gia buổi chia sẻ, tôi đã học được nhiều kinh nghiệm quý báu:
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Hiểu rõ lộ trình phát triển nghề nghiệp từ Helpdesk đến System Administrator.
+- Nhận thức được vai trò của Linux, Networking và kỹ năng thực hành trong lĩnh vực hạ tầng CNTT.
+- Hiểu tầm quan trọng của việc tự động hóa và xây dựng tài liệu vận hành hệ thống.
+- Có cái nhìn tổng quan về Cloud Computing, DevOps và Infrastructure as Code.
+- Hiểu rằng kinh nghiệm thực tế và các dự án cá nhân có giá trị lớn hơn việc chỉ sở hữu nhiều chứng chỉ.
+- Học được tư duy phát triển nghề nghiệp lâu dài thông qua việc học sâu, thực hành nhiều và không ngừng cải thiện bản thân.
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Những kiến thức tiếp thu được từ buổi chia sẻ sẽ giúp tôi định hướng rõ ràng hơn trong quá trình học tập cũng như phát triển nghề nghiệp.
+
+Trong thời gian tới, tôi dự định:
+
+- Tiếp tục nâng cao kiến thức về Linux và hệ điều hành.
+- Thực hành xây dựng các hệ thống mạng và máy chủ trong môi trường ảo.
+- Học và sử dụng Docker, Terraform cùng các dịch vụ AWS.
+- Xây dựng các dự án cá nhân để bổ sung vào portfolio.
+- Rèn luyện kỹ năng xử lý sự cố và tư duy phân tích hệ thống.
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Đây là một buổi chia sẻ rất thực tế và truyền cảm hứng. Điều tôi ấn tượng nhất là diễn giả không chỉ nói về thành công mà còn chia sẻ cả những khó khăn, sai lầm và quá trình tự học của bản thân. Điều đó giúp tôi hiểu rằng việc phát triển trong ngành CNTT là một hành trình dài, đòi hỏi sự kiên trì và tinh thần học hỏi liên tục.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+Buổi chia sẻ cũng giúp tôi có cái nhìn rõ ràng hơn về con đường phát triển từ IT Support đến System Administrator, sau đó mở rộng sang Cloud và DevOps. Những kinh nghiệm thực tế cùng các lời khuyên của diễn giả sẽ là nguồn động lực để tôi tiếp tục học tập, rèn luyện kỹ năng và chuẩn bị tốt hơn cho công việc trong tương lai.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+
+- Bởi vì các buổi đầu tôi chưa được phổ biến về việc tham gia event nên chụp hình ảnh sự kiện nên tôi không có hình ảnh trực quan.

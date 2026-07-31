@@ -1,57 +1,58 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-29
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 5 Objectives
 
-### Week 5 Objectives:
+- Understand the AWS security model and the shared responsibility framework.
+- Learn how to manage identities and access permissions using **AWS Identity and Access Management (IAM)**.
+- Explore AWS security services and account management features.
+- Understand data encryption methods and security monitoring services on AWS.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks for This Week
 
+| Day       | Tasks                                                                                                                                                                             | Start Date | Completion Date | Reference Material |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| Monday    | - Study **Module 05-01:** AWS Shared Responsibility Model <br> - Learn about the security responsibilities of AWS and customers                                                   | 29/06/2026 | 29/06/2026      |
+| Tuesday   | - Study **Module 05-02:** AWS Identity and Access Management (IAM) <br> - Practice creating IAM Users, Groups, Roles, and Policies                                                | 30/06/2026 | 30/06/2026      |
+| Wednesday | - Study **Module 05-03:** Amazon Cognito <br> - Study **Module 05-04:** AWS Organizations                                                                                         | 01/07/2026 | 01/07/2026      |
+| Thursday  | - Study **Module 05-05:** AWS IAM Identity Center <br> - Study **Module 05-06:** AWS Key Management Service (AWS KMS)                                                             | 02/07/2026 | 02/07/2026      |
+| Friday    | - Study **Module 05-07:** AWS Security Hub <br> - Complete **Module 05-08:** Hands-on Labs and Additional Research <br> - Practice configuring IAM, AWS KMS, and AWS Security Hub | 03/07/2026 | 03/07/2026      |
 
-### Week 5 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 5 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- Developed a solid understanding of the **AWS Shared Responsibility Model**, clearly distinguishing the security responsibilities of AWS and its customers.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Learned how to manage identities and access permissions using **AWS Identity and Access Management (IAM)**, including:
+    - IAM Users
+    - IAM Groups
+    - IAM Roles
+    - IAM Policies
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Understood the **Principle of Least Privilege** and how it helps strengthen security by granting only the minimum permissions required.
 
-* Used AWS CLI to perform basic operations such as:
+- Became familiar with **Amazon Cognito** for managing user authentication and authorization in web and mobile applications.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Understood the role of **AWS Organizations** in centrally managing multiple AWS accounts.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Explored **AWS IAM Identity Center** (formerly AWS Single Sign-On) for centralized user authentication and access management across multiple AWS accounts and applications.
+
+- Learned how to encrypt data using **AWS Key Management Service (AWS KMS)** and manage encryption keys securely.
+
+- Became familiar with **AWS Security Hub**, which aggregates and monitors security findings from multiple AWS security services.
+
+- Successfully completed hands-on labs, including:
+    - Creating and managing IAM Users, Groups, Roles, and Policies.
+    - Applying access control based on the Principle of Least Privilege.
+    - Creating and using AWS KMS encryption keys.
+    - Exploring the AWS Security Hub dashboard and its key features.
+
+- Acquired the knowledge to implement fundamental identity and security services, enabling the deployment of secure AWS environments and preparing for database services in the following week.

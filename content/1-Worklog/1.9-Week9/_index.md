@@ -1,57 +1,55 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-27
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 9 Objectives
 
-### Week 9 Objectives:
+- Review and consolidate all knowledge acquired throughout the **First Cloud AI Journey** program.
+- Revisit and strengthen AWS service deployment and management skills.
+- Evaluate learning outcomes and finalize technical documentation.
+- Prepare a learning and career development roadmap after completing the program.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to Be Completed This Week
 
+| Day | Tasks                                                                                                                             | Start Date | Completion Date |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
+| Mon | - Review Modules 01 to 03 <br> - Revisit AWS Networking and Compute services                                                      | 27/07/2026 | 27/07/2026      |
+| Tue | - Review Modules 04 and 05 <br> - Revisit Storage, Security, and Identity Management services                                     | 28/07/2026 | 28/07/2026      |
+| Wed | - Review Modules 06 and 07 <br> - Revisit Database, Data Analytics, and Serverless services                                       | 29/07/2026 | 29/07/2026      |
+| Thu | - Evaluate the final project <br> - Review system architecture, performance, security, and cost optimization                      | 30/07/2026 | 30/07/2026      |
+| Fri | - Finalize the Worklog and technical documentation <br> - Summarize the program and create a learning plan for AWS certifications | 31/07/2026 | 31/07/2026      |
 
-### Week 9 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 9 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- Compiled and organized all knowledge gained throughout the **First Cloud AI Journey** program.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Reinforced understanding of the core AWS service categories, including:
+    - Networking
+    - Compute
+    - Storage
+    - Security
+    - Database
+    - Data Analytics
+    - Serverless
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Reviewed the complete cloud system deployment lifecycle, from architecture design, configuration, and deployment to monitoring and operations.
 
-* Used AWS CLI to perform basic operations such as:
+- Reassessed the final project to identify its strengths, limitations, and opportunities for future improvement.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Reviewed best practices for optimizing performance, security, and cost efficiency when deploying systems on AWS.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Completed the technical documentation, Worklog, and overall internship program summary.
+
+- Developed a learning roadmap for the next stage, including preparation for AWS certifications such as:
+    - AWS Certified Cloud Practitioner
+    - AWS Certified Solutions Architect – Associate
+
+- Enhanced the ability to independently research, deploy, and manage AWS services, while being well prepared to apply this knowledge in real-world projects and professional working environments.

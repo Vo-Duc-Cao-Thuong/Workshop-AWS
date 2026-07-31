@@ -6,121 +6,128 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “COMMUNITY DAY 13/06/2026”: What Does a DevOps Engineer Really Do?
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+The purpose of this sharing session was to provide participants with a deeper understanding of the actual responsibilities of a DevOps Engineer in a professional working environment. Rather than focusing solely on technical tools, the speaker shared practical experiences, professional mindsets, learning paths, and the essential skills required to build a successful career in DevOps.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Trong H. Truong** – DevOps Engineer at Endava Vietnam
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Is DevOps Really a Profession?
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The session began with an interesting question:
 
-#### Transitioning to modern application architecture – Microservices
+"What does a DevOps Engineer actually do?"
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+Many people associate DevOps with technical tasks such as:
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+- Building CI/CD pipelines.
+- Managing Docker and Kubernetes.
+- Working with cloud platforms such as AWS and Azure.
+- Writing Infrastructure as Code (IaC).
+- Monitoring systems using logging and monitoring tools.
 
-#### Domain-Driven Design (DDD)
+However, the speaker emphasized that these are only tools used to accomplish the job. The true role of DevOps is to bridge the gap between software development and operations teams, enabling software to be developed, tested, deployed, and maintained more efficiently, reliably, and consistently.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Understanding the Role of a DevOps Engineer
 
-#### Event-Driven Architecture
+The speaker explained that many people misunderstand DevOps, assuming that a DevOps Engineer is simply:
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- A software deployment engineer.
+- A Docker or Kubernetes specialist.
+- The person responsible for fixing every system failure.
+- A Cloud Engineer.
 
-#### Compute Evolution
+In reality, a DevOps Engineer focuses on optimizing the entire software development lifecycle by:
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+- Automating repetitive tasks.
+- Building reliable deployment processes.
+- Facilitating collaboration between development and operations teams.
+- Ensuring systems are scalable, observable, and resilient to failures.
 
-#### Amazon Q Developer
+#### Where Should Beginners Start Learning DevOps?
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+One of the most valuable parts of the session was the recommended learning roadmap for beginners.
+
+The speaker stressed that instead of trying to learn numerous tools simultaneously, learners should first establish a solid technical foundation.
+
+The fundamental knowledge areas include:
+
+- Linux operating systems.
+- Computer networking fundamentals.
+- Programming languages such as Python or Golang.
+- Git and CI/CD workflows.
+- Docker and container technologies.
+
+In addition, learners should understand how an application progresses from development and testing to deployment and production operations.
+
+The speaker also encouraged beginners to build small personal projects, such as:
+
+- Deploying a simple application.
+- Automating repetitive tasks.
+- Setting up monitoring systems.
+- Intentionally creating failures and practicing troubleshooting techniques.
+
+#### Lessons Learned from Real-World Experience
+
+One of the most memorable parts of the presentation was the speaker's reflection on lessons learned throughout his professional career.
+
+Some key takeaways included:
+
+- Do not simply copy commands—understand how they work.
+- Always identify the root cause before attempting to solve a problem.
+- Ask "Why?" before asking "How?".
+- Communication and collaboration skills are just as important as technical expertise.
+- A DevOps Engineer should build reliable processes that prevent incidents rather than constantly solving emergencies alone.
+
+#### What Makes a Great DevOps Engineer?
+
+Toward the end of the session, the speaker summarized the characteristics of a successful DevOps Engineer.
+
+According to him, technologies evolve rapidly, but strong fundamental knowledge remains valuable throughout one's career.
+
+Therefore, every engineer should:
+
+- Continuously learn and stay updated with new technologies.
+- Develop a system-oriented mindset instead of focusing only on individual tasks.
+- Automate repetitive processes whenever possible.
+- Build standardized workflows that improve team productivity.
+- Use AI as a supportive tool rather than relying on it completely.
 
 ### Key Takeaways
 
-#### Design Mindset
+After attending this session, I gained many valuable insights, including:
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- A clearer understanding of the role of DevOps in the software development lifecycle.
+- A structured learning roadmap for starting a DevOps career.
+- Recognition of the importance of Linux, networking, Git, and Docker.
+- An understanding that strong foundational knowledge is more valuable than learning numerous tools superficially.
+- Practical ideas for building personal projects to strengthen technical skills.
+- Greater appreciation for communication, teamwork, and systems thinking in a professional environment.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+The knowledge shared during this event will help me define a clearer direction for both my studies and future career development.
+
+In the coming months, I plan to:
+
+- Strengthen my knowledge of Linux and computer networking.
+- Continue practicing Git, Docker, and CI/CD workflows.
+- Build personal projects to gain a deeper understanding of application deployment.
+- Learn more about AWS and cloud computing services.
+- Improve my troubleshooting and analytical thinking skills instead of simply memorizing commands.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+This session provided me with a much more realistic perspective on the DevOps profession than I had previously imagined. Instead of focusing only on introducing technical tools, the speaker emphasized the importance of professional mindset, continuous learning, collaboration, and process improvement. This helped me realize that becoming a successful DevOps Engineer requires not only technical expertise but also strong communication skills, self-learning ability, and a commitment to continuous improvement.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+The speaker's real-world experiences have motivated me to build a solid technical foundation, actively practice through personal projects, and establish a clearer career path toward Cloud Computing and DevOps.
 
 #### Some event photos
-*Add your event photos here*  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+- Since participants were not informed during the early internship sessions that event photos should be taken, I unfortunately do not have any photos from this event to include in this report.

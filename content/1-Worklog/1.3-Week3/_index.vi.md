@@ -1,59 +1,64 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+date: 2026-06-15
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần 3
 
-### Mục tiêu tuần 3:
+- Hiểu các dịch vụ tính toán (Compute Services) trên AWS.
+- Nắm được cách triển khai và quản lý Amazon EC2.
+- Tìm hiểu các giải pháp lưu trữ đi kèm với EC2.
+- Hiểu cơ chế Auto Scaling nhằm tối ưu hiệu năng và chi phí.
+- Làm quen với các dịch vụ hỗ trợ như Amazon EFS, Amazon FSx, Amazon Lightsail và AWS Application Migration Service (MGN).
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+---
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc cần triển khai trong tuần này
 
+| Thứ | Công việc                                                                                                                                 | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Học **Module 03-01:** Compute VM on AWS <br> - Tìm hiểu Amazon EC2 và các loại Instance Type                                            | 15/06/2026   | 15/06/2026      |
+| 3   | - Học **Module 03-01-02:** AMI, Backup và Key Pair <br> - Học **Module 03-01-03:** Amazon Elastic Block Store (EBS)                       | 16/06/2026   | 16/06/2026      |
+| 4   | - Học **Module 03-01-04:** Instance Store <br> - Học **Module 03-01-05:** User Data <br> - Học **Module 03-01-06:** Instance Metadata     | 17/06/2026   | 17/06/2026      |
+| 5   | - Học **Module 03-01-07:** EC2 Auto Scaling <br> - Học **Module 03-02:** Amazon EFS, Amazon FSx, Amazon Lightsail và AWS MGN              | 18/06/2026   | 18/06/2026      |
+| 6   | - Thực hành tạo và cấu hình EC2 Instance <br> - Kết nối EC2 bằng SSH <br> - Gắn và quản lý EBS Volume <br> - Cấu hình Auto Scaling cơ bản | 19/06/2026   | 19/06/2026      |
 
-### Kết quả đạt được tuần 3:
+---
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Kết quả đạt được tuần 3
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu kiến trúc và nguyên lý hoạt động của **Amazon Elastic Compute Cloud (EC2)**.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Nắm được cách lựa chọn **EC2 Instance Type** phù hợp với từng nhu cầu sử dụng.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- Hiểu vai trò và cách sử dụng:
+    - Amazon Machine Image (AMI)
+    - Key Pair
+    - Snapshot và Backup
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Thực hành tạo, khởi động và quản lý EC2 Instance thông qua:
+    - AWS Management Console
+    - AWS CLI
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Hiểu sự khác biệt giữa các loại lưu trữ:
+    - Amazon Elastic Block Store (EBS)
+    - EC2 Instance Store
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Biết cách sử dụng **User Data** để tự động cấu hình máy chủ khi khởi động.
 
+- Hiểu cơ chế **Instance Metadata** và các thông tin mà EC2 cung cấp cho ứng dụng đang chạy.
 
+- Nắm được nguyên lý hoạt động của **Amazon EC2 Auto Scaling**, giúp tự động tăng hoặc giảm số lượng EC2 theo nhu cầu sử dụng.
+
+- Làm quen với các dịch vụ:
+    - Amazon Elastic File System (EFS)
+    - Amazon FSx
+    - Amazon Lightsail
+    - AWS Application Migration Service (MGN)
+
+- Hoàn thành các bài thực hành triển khai EC2, quản lý lưu trữ EBS và cấu hình Auto Scaling cơ bản.
+
+- Có khả năng triển khai và quản lý máy chủ ảo trên AWS, làm nền tảng cho việc học các dịch vụ lưu trữ và cơ sở dữ liệu ở các tuần tiếp theo.

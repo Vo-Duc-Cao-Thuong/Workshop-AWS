@@ -1,57 +1,63 @@
 ---
 title: "Week 7 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-13
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 7 Objectives
 
-### Week 7 Objectives:
+- Understand the process of building data processing and analytics systems on AWS.
+- Become familiar with AWS Data Analytics, Data Engineering, and Serverless services.
+- Practice building a data pipeline for data ingestion, processing, storage, and visualization.
+- Learn how to develop applications using AWS SDK, AWS CloudShell, and AWS Cloud9.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks for This Week
 
+| Day       | Tasks                                                                                                                                                                                                                                                                                  | Start Date | Completion Date | Reference Material |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| Monday    | - Create an **Amazon S3 Bucket** <br> - Create an **Amazon Kinesis Data Firehose Delivery Stream** <br> - Generate sample data and store it in Amazon S3                                                                                                                               | 13/07/2026 | 13/07/2026      |
+| Tuesday   | - Practice using **AWS Glue Crawlers** <br> - Explore data with the **AWS Glue Data Catalog** <br> - Query data using **Amazon Athena** and visualize the results with **Amazon QuickSight**                                                                                           | 14/07/2026 | 14/07/2026      |
+| Wednesday | - Learn about **Amazon DynamoDB** <br> - Practice creating tables, inserting data, and performing operations using the DynamoDB Console <br> - Explore common DynamoDB design patterns                                                                                                 | 15/07/2026 | 15/07/2026      |
+| Thursday  | - Practice using **AWS CloudShell**, **AWS SDK**, and **AWS Cloud9** <br> - Use **AWS Glue DataBrew** to clean and transform data                                                                                                                                                      | 16/07/2026 | 16/07/2026      |
+| Friday    | - Build a data pipeline using **AWS Glue** <br> - Analyze data with **Amazon Athena** and **Amazon Kinesis Data Analytics** <br> - Visualize data using **Amazon QuickSight** <br> - Explore serverless data processing with **AWS Lambda** and data storage using **Amazon Redshift** | 17/07/2026 | 17/07/2026      |
 
-### Week 7 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 7 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- Developed a solid understanding of the end-to-end process of collecting, storing, and processing data on the AWS platform.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Successfully built a data storage solution using:
+    - Amazon S3
+    - Amazon Kinesis Data Firehose
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Learned how to use **AWS Glue Crawlers** to automatically discover datasets and build an **AWS Glue Data Catalog**.
 
-* Used AWS CLI to perform basic operations such as:
+- Queried data using **Amazon Athena** and visualized analytical results with **Amazon QuickSight**.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Became familiar with **Amazon DynamoDB**, including:
+    - Creating database tables.
+    - Inserting, updating, and querying data.
+    - Managing data through the DynamoDB Console.
+    - Exploring common DynamoDB design patterns.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Learned how to develop and test applications using:
+    - AWS CloudShell
+    - AWS SDK
+    - AWS Cloud9
+
+- Practiced data cleansing and transformation using **AWS Glue DataBrew** and **AWS Glue ETL**.
+
+- Built an end-to-end data processing pipeline, covering data ingestion, storage, transformation, and analytics using:
+    - AWS Glue
+    - Amazon Athena
+    - Amazon Kinesis Data Analytics
+    - Amazon Redshift
+
+- Gained hands-on experience with **AWS Lambda** for implementing serverless data processing workflows.
+
+- Successfully completed the Data Engineering and Data Analytics hands-on labs, acquiring the ability to build basic AWS data pipelines and create data visualizations for reporting and decision-making.

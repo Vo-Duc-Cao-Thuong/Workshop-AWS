@@ -1,95 +1,59 @@
 ---
-title : "VPC Endpoint Policies"
-date : 2024-01-01
+title : "Cấu hình Bảo mật, CORS & CSP Policy"
+date : 2026-07-24
 weight : 5
 chapter : false
-pre : " <b> 5.5 </b> "
+pre : " <b> 5.5. </b> "
 ---
 
-Khi bạn tạo một Interface Endpoint  hoặc cổng, bạn có thể đính kèm một chính sách điểm cuối để kiểm soát quyền truy cập vào dịch vụ mà bạn đang kết nối. Chính sách VPC Endpoint là chính sách tài nguyên IAM mà bạn đính kèm vào điểm cuối. Nếu bạn không đính kèm chính sách khi tạo điểm cuối, thì AWS sẽ đính kèm chính sách mặc định cho bạn để cho phép toàn quyền truy cập vào dịch vụ thông qua điểm cuối.
+#### 1. EC2 Security Group Rules
 
-Bạn có thể tạo chính sách chỉ hạn chế quyền truy cập vào các S3 bucket cụ thể. Điều này hữu ích nếu bạn chỉ muốn một số Bộ chứa S3 nhất định có thể truy cập được thông qua điểm cuối.
+Đảm bảo **EC2 Inbound Rules** trong AWS Management Console cho phép các cổng sau:
 
-Trong phần này, bạn sẽ tạo chính sách VPC Endpoint hạn chế quyền truy cập vào S3 bucket được chỉ định trong chính sách VPC Endpoint.
+| Type | Protocol | Port Range | Source | Mục đích |
+|------|----------|------------|--------|----------|
+| HTTP | TCP | 80 | `0.0.0.0/0` | Giao tiếp Web API công khai với Frontend S3 |
+| Custom TCP | TCP | 8000 | `0.0.0.0/0` | Cổng Uvicorn dev / thử nghiệm |
+| SSH | TCP | 22 | `My IP` / `0.0.0.0/0` | Quản trị từ xa |
 
-![endpoint diagram](/images/5-Workshop/5.5-Policy/s3-bucket-policy.png)
+---
 
-#### Kết nối tới EC2 và xác minh kết nối tới S3. 
+#### 2. Cấu hình CORS (Cross-Origin Resource Sharing)
 
-1. Bắt đầu một phiên AWS Session Manager mới trên máy chủ có tên là Test-Gateway-Endpoint. Từ phiên này, xác minh rằng bạn có thể liệt kê nội dung của bucket mà bạn đã tạo trong Phần 1: Truy cập S3 từ VPC.
+Vì Frontend tĩnh nằm ở S3 (`http://fav-web-frontend-bucket.s3-website-ap-southeast-2.amazonaws.com`) và Backend ở EC2 (`http://52.63.251.110`), FastAPI Backend cấu hình middleware trong `backend/main.py`:
 
-```
-aws s3 ls s3://<your-bucket-name>
-```
-![test](/images/5-Workshop/5.5-Policy/test1.png)
+```python
+DEV_ORIGINS = [
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+    'http://fav-web-frontend-bucket.s3-website-ap-southeast-2.amazonaws.com',
+]
 
-Nội dung của bucket bao gồm hai tệp có dung lượng 1GB đã được tải lên trước đó.
-
-2. Tạo một bucket S3 mới; tuân thủ mẫu đặt tên mà bạn đã sử dụng trong Phần 1, nhưng thêm '-2' vào tên. Để các trường khác là mặc định và nhấp vào **Create**.
-
-![create bucket](/images/5-Workshop/5.5-Policy/create-bucket.png)
-
-3. Tạo bucket thành công.
-
-![Success](/images/5-Workshop/5.5-Policy/create-bucket-success.png)
-
-Policy mặc định cho phép truy cập vào tất cả các S3 Buckets thông qua VPC endpoint.
-
-4. Trong giao diện **Edit Policy**, sao chép và dán theo policy sau, thay thế yourbucketname-2 với tên bucket thứ hai của bạn. Policy này sẽ cho phép truy cập đến bucket mới thông qua VPC endpoint, nhưng không cho phép truy cập đến các bucket còn lại. Chọn **Save** để kích hoạt policy.
-
-
-```
-{
-  "Id": "Policy1631305502445",
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "Stmt1631305501021",
-      "Action": "s3:*",
-      "Effect": "Allow",
-      "Resource": [
-      				"arn:aws:s3:::yourbucketname-2",
-       				"arn:aws:s3:::yourbucketname-2/*"
-       ],
-      "Principal": "*"
-    }
-  ]
-}
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_origin_regex=r"https?://.*",
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 ```
 
-![custom policy](/images/5-Workshop/5.5-Policy/policy2.png)
+---
 
-Cấu hình policy thành công.
+#### 3. Cấu hình Content Security Policy (CSP) & Meta Tag
 
-![success](/images/5-Workshop/5.5-Policy/success.png)
+Để tránh trình duyệt chặn các yêu cầu kết nối `fetch` Cross-Origin từ S3 tới EC2, thẻ `<meta>` trong `frontend/index.html` và Middleware `backend/middleware/csp.py` được nới rộng `connect-src`:
 
-5. Từ session của bạn trên Test-Gateway-Endpoint instance, kiểm tra truy cập đến S3 bucket bạn tạo ở bước đầu
-
+```html
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data: https: http:; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src 'self' http: https:; connect-src 'self' http: https: ws: wss:;" />
 ```
-aws s3 ls s3://<yourbucketname>
-```
 
-Câu lệnh trả về lỗi bởi vì truy cập vào S3 bucket không có quyền trong VPC endpoint policy.
+---
 
-![error](/images/5-Workshop/5.5-Policy/error.png)
+#### 4. Cơ chế Bảo mật Xác thực JWT Dual (Cookie + Bearer Token Fallback)
 
-6. Trở lại home directory của bạn trên EC2 instance ```cd~```
-
-+ Tạo file ```fallocate -l 1G test-bucket2.xyz ```
-+ Sao chép file lên bucket thứ  2 ```aws s3 cp test-bucket2.xyz s3://<your-2nd-bucket-name>```
-
-![success](/images/5-Workshop/5.5-Policy/test2.png)
-
-Thao tác này được cho phép bởi VPC endpoint policy.
-
-![success](/images/5-Workshop/5.5-Policy/test2-success.png)
-
-Sau đó chúng ta kiểm tra truy cập vào S3 bucket đầu tiên
-
- ```aws s3 cp test-bucket2.xyz s3://<your-1st-bucket-name>```
-
- ![fail](/images/5-Workshop/5.5-Policy/test2-fail.png)
-
- Câu lệnh xảy ra lỗi bởi vì bucket không có quyền truy cập bởi VPC endpoint policy.
-
-Trong phần này, bạn đã tạo chính sách VPC Endpoint cho Amazon S3 và sử dụng AWS CLI để kiểm tra chính sách. Các hoạt động AWS CLI liên quan đến bucket S3 ban đầu của bạn thất bại vì bạn áp dụng một chính sách chỉ cho phép truy cập đến bucket thứ hai mà bạn đã tạo. Các hoạt động AWS CLI nhắm vào bucket thứ hai của bạn thành công vì chính sách cho phép chúng. Những chính sách này có thể hữu ích trong các tình huống khi bạn cần kiểm soát quyền truy cập vào tài nguyên thông qua VPC Endpoint.
+Do trình duyệt chặn gửi `HttpOnly Cookie` qua kết nối HTTP không mã hóa giữa 2 domain khác nhau (S3 & EC2), hệ thống áp dụng cơ chế xác thực kép:
+1. **Response Login:** Server trả về Cookie `fw_auth` đồng thời trả về `token` trong JSON payload.
+2. **Request Interceptor:** Axios đính kèm `Authorization: Bearer <token>` nếu phát hiện có token lưu tại `localStorage`.

@@ -1,57 +1,60 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-22
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Week 4 Objectives
 
-### Week 4 Objectives:
+- Understand AWS data storage services.
+- Learn how to use Amazon Simple Storage Service (Amazon S3) to store and manage objects.
+- Explore Amazon S3 Storage Classes and data lifecycle management strategies.
+- Understand AWS solutions for data storage, backup, and migration.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks for This Week
 
+| Day       | Tasks                                                                                                                                                                   | Start Date | Completion Date | Reference Material |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| Monday    | - Study **Module 04-01:** Storage Services on AWS <br> - Learn about Object Storage, Block Storage, and File Storage                                                    | 22/06/2026 | 22/06/2026      |
+| Tuesday   | - Study **Module 04-02:** Amazon S3, Access Points, and Storage Classes <br> - Learn about Buckets, Objects, Versioning, and Lifecycle Policies                         | 23/06/2026 | 23/06/2026      |
+| Wednesday | - Study **Module 04-03:** Amazon S3 Static Website Hosting, CORS, Object Keys, Performance Optimization, and Amazon S3 Glacier                                          | 24/06/2026 | 24/06/2026      |
+| Thursday  | - Study **Module 04-04:** AWS Snow Family, AWS Storage Gateway, and AWS Backup <br> - Explore data migration and backup solutions                                       | 25/06/2026 | 25/06/2026      |
+| Friday    | - Practice creating an Amazon S3 bucket <br> - Configure Static Website Hosting <br> - Enable Versioning, configure Lifecycle Rules, and verify data access permissions | 26/06/2026 | 26/06/2026      |
 
-### Week 4 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Week 4 Achievements
 
-* Successfully created and configured an AWS Free Tier account.
+- Developed a solid understanding of AWS storage models, including:
+    - Object Storage
+    - Block Storage
+    - File Storage
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Learned how to use **Amazon Simple Storage Service (Amazon S3)** to store, organize, and manage data efficiently.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Understood the core components of Amazon S3, including:
+    - Buckets
+    - Objects
+    - Object Keys
+    - Versioning
+    - Access Points
 
-* Used AWS CLI to perform basic operations such as:
+- Learned how to select the appropriate **Amazon S3 Storage Class** to balance storage costs and data access performance.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+- Successfully deployed a **Static Website** using Amazon S3 and configured **Cross-Origin Resource Sharing (CORS)** settings.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Understood how to manage the data lifecycle using **Lifecycle Policies** and explored **Amazon S3 Glacier** for long-term, low-cost archival storage.
+
+- Became familiar with large-scale data migration and hybrid storage solutions, including:
+    - AWS Snow Family
+    - AWS Storage Gateway
+
+- Learned how to use **AWS Backup** to design and implement backup and disaster recovery strategies.
+
+- Successfully completed hands-on labs involving Amazon S3 bucket creation, access permission configuration, Lifecycle Rule implementation, and Static Website Hosting.
+
+- Acquired the knowledge to evaluate and implement appropriate AWS storage solutions, providing a strong foundation for learning AWS security and identity management services in the following week.
