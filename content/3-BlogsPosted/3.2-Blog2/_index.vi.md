@@ -8,11 +8,11 @@ pre: " <b> 3.2. </b> "
 
 # Xây dựng kiến trúc Three-Tier cho Fav Web trên AWS
 
-> *Bài viết được chia sẻ bởi tác giả trên cộng đồng [AWS Study Group VN](https://www.facebook.com/groups/awsstudygroupfcj).*
+> _Bài viết được chia sẻ bởi tác giả trên cộng đồng [AWS Study Group VN](https://www.facebook.com/groups/awsstudygroupfcj)._
 
-Trong quá trình thực hiện dự án **Fav Web**, nhóm mình đặt ra một câu hỏi khá đơn giản: *Làm thế nào để triển khai một ứng dụng web trên AWS vừa dễ quản lý, vừa tối ưu chi phí nhưng vẫn có khả năng mở rộng khi số lượng người dùng tăng lên?*
+Trong quá trình thực hiện dự án **Fav Web**, nhóm mình đặt ra một câu hỏi khá đơn giản: _Làm thế nào để triển khai một ứng dụng web trên AWS vừa dễ quản lý, vừa tối ưu chi phí nhưng vẫn có khả năng mở rộng khi số lượng người dùng tăng lên?_
 
-Trong lúc tìm hiểu, nhóm mình đã tham khảo bài viết *"Building a three-tier architecture on a budget"* trên AWS Architecture Blog. Bài viết gợi ý cách xây dựng một kiến trúc ba tầng (Three-Tier Architecture) với các dịch vụ AWS, ưu tiên tính đơn giản và khả năng mở rộng.
+Trong lúc tìm hiểu, nhóm mình đã tham khảo bài viết _"Building a three-tier architecture on a budget"_ trên AWS Architecture Blog. Bài viết gợi ý cách xây dựng một kiến trúc ba tầng (Three-Tier Architecture) với các dịch vụ AWS, ưu tiên tính đơn giản và khả năng mở rộng.
 
 Từ ý tưởng đó, nhóm đã thiết kế kiến trúc riêng cho **Fav Web**, phù hợp với công nghệ và yêu cầu của dự án.
 
@@ -21,6 +21,7 @@ Từ ý tưởng đó, nhóm đã thiết kế kiến trúc riêng cho **Fav Web
 ### KIẾN TRÚC TỔNG THỂ
 
 Kiến trúc của Fav Web gồm ba tầng chính:
+
 - **Presentation Layer**
 - **Application Layer**
 - **Data Layer**
@@ -37,6 +38,7 @@ Frontend của Fav Web được xây dựng bằng React.
 Sau khi build, toàn bộ file HTML, CSS và JavaScript được triển khai lên **Amazon S3 Static Website Hosting**.
 
 **Lý do nhóm lựa chọn S3:**
+
 - Triển khai rất nhanh
 - Không cần cài đặt Web Server
 - Chi phí thấp
@@ -52,6 +54,7 @@ Phần Backend của Fav Web được viết bằng FastAPI và đóng gói bằ
 Container được triển khai trên một **Amazon EC2 Instance** nằm trong VPC.
 
 **Backend chịu trách nhiệm xử lý:**
+
 - Xác thực người dùng
 - Face ID Authentication
 - RBAC (Role-Based Access Control)
@@ -60,6 +63,7 @@ Container được triển khai trên một **Amazon EC2 Instance** nằm trong 
 - Cung cấp REST API cho Frontend
 
 **Việc sử dụng Docker giúp nhóm:**
+
 - Dễ triển khai
 - Đồng nhất môi trường Development và Production
 - Thuận tiện khi nâng cấp sau này sang Amazon ECS hoặc Kubernetes.
@@ -70,12 +74,14 @@ Container được triển khai trên một **Amazon EC2 Instance** nằm trong 
 
 Dữ liệu của hệ thống được lưu trong **Amazon RDS PostgreSQL**.  
 Backend kết nối trực tiếp tới RDS để:
+
 - Lưu thông tin người dùng
 - Lưu metadata của hình ảnh
 - Lưu dữ liệu bài viết
 - Quản lý phân quyền
 
 **Thay vì tự cài PostgreSQL trên EC2, RDS giúp nhóm giảm rất nhiều công việc quản trị như:**
+
 - Backup tự động
 - Cập nhật phiên bản
 - Monitoring
@@ -91,6 +97,7 @@ Một điểm mà nhóm khá hài lòng là **không lưu hình ảnh trực ti�
 Thay vào đó: `Người dùng Upload` ➔ `Backend xử lý` ➔ `IAM Role xác thực quyền` ➔ `Amazon S3 lưu Object` ➔ `Database chỉ lưu URL`.
 
 **Thiết kế này giúp:**
+
 - Giảm dung lượng EC2
 - Dữ liệu media độc lập với application
 - Dễ mở rộng khi số lượng file tăng lên
@@ -102,6 +109,7 @@ Thay vào đó: `Người dùng Upload` ➔ `Backend xử lý` ➔ `IAM Role xá
 Để tăng tính bảo mật, EC2 được gán **IAM Role** thay vì sử dụng Access Key lưu trong source code. IAM chỉ cấp đúng các quyền cần thiết để backend truy cập bucket S3.
 
 Bên cạnh đó, toàn bộ log của ứng dụng được gửi về **Amazon CloudWatch**, giúp nhóm dễ dàng theo dõi:
+
 - API Error
 - Upload Failure
 - Authentication Log
@@ -123,9 +131,9 @@ Nếu bạn cũng đang học AWS hoặc xây dựng một hệ thống theo mô
 
 ### TÀI LIỆU THAM KHẢO
 
-1. Nemeth, A., Vergona, F., & Sharma, V. (2024, September 25). *Building a three-tier architecture on a budget*. AWS Architecture Blog. [https://aws.amazon.com/blogs/aws-architecture/building-a-three-tier-architecture-on-a-budget/](https://aws.amazon.com/blogs/aws-architecture/building-a-three-tier-architecture-on-a-budget/)
-2. Re Ferre, M. (2018, September 6). *Compute abstractions on AWS: A visual story*. AWS Architecture Blog. [https://aws.amazon.com/blogs/aws-architecture/compute-abstractions-on-aws-a-visual-story/](https://aws.amazon.com/blogs/aws-architecture/compute-abstractions-on-aws-a-visual-story/)
-3. Gao, Z. (2022, August 5). *Web application access control patterns using AWS services*. AWS Architecture Blog. [https://aws.amazon.com/blogs/aws-architecture/web-application-access-control-patterns-using-aws-services/](https://aws.amazon.com/blogs/aws-architecture/web-application-access-control-patterns-using-aws-services/)
-4. Beswick, J. (2023, May 3). *Patterns for building an API to upload files to Amazon S3*. AWS Compute Blog. [https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
+1. Nemeth, A., Vergona, F., & Sharma, V. (2024, September 25). _Building a three-tier architecture on a budget_. AWS Architecture Blog. [https://aws.amazon.com/blogs/aws-architecture/building-a-three-tier-architecture-on-a-budget/](https://aws.amazon.com/blogs/aws-architecture/building-a-three-tier-architecture-on-a-budget/)
+2. Re Ferre, M. (2018, September 6). _Compute abstractions on AWS: A visual story_. AWS Architecture Blog. [https://aws.amazon.com/blogs/aws-architecture/compute-abstractions-on-aws-a-visual-story/](https://aws.amazon.com/blogs/aws-architecture/compute-abstractions-on-aws-a-visual-story/)
+3. Gao, Z. (2022, August 5). _Web application access control patterns using AWS services_. AWS Architecture Blog. [https://aws.amazon.com/blogs/aws-architecture/web-application-access-control-patterns-using-aws-services/](https://aws.amazon.com/blogs/aws-architecture/web-application-access-control-patterns-using-aws-services/)
+4. Beswick, J. (2023, May 3). _Patterns for building an API to upload files to Amazon S3_. AWS Compute Blog. [https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/](https://aws.amazon.com/blogs/compute/patterns-for-building-an-api-to-upload-files-to-amazon-s3/)
 
 ![Architecture Diagram](/images/aws_architecture.png)
