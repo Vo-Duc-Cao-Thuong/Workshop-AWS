@@ -1,31 +1,51 @@
 ---
-title: "Blog 1"
-date: 2024-01-01
+title: "Blog 1: After 2 months of learning AWS, how do I understand Amazon EC2?"
+date: 2026-07-24
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# After 2 months of learning AWS, how do I understand Amazon EC2?
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+> *Published on [AWS Study Group VN](https://www.facebook.com/groups/awsstudygroupfcj).*
 
-Key points to know:
+Amazon EC2 was one of the first services I spent time exploring when I started learning AWS. This post is not a technical manual or an expert guide, but rather a reflection of what I have gathered and understood after 2 months of reading documentation, attending workshops, and self-learning. I hope it helps fellow beginners.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+---
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+### STARTING WITH EC2
 
-...Image...
+Opening the AWS Management Console for the first time felt quite overwhelming with unfamiliar service names like EC2, S3, IAM, VPC, and Lambda. However, EC2 kept popping up everywhere—from web hosting and backend servers to basic labs—which led me to focus on it first.
 
-...Link...
+---
 
-...Guide...
+### EC2 IS NOT JUST A "VIRTUAL MACHINE"
+
+Initially, I viewed EC2 simply as a virtual machine running in the cloud. While accurate, it felt too abstract.
+
+I now view EC2 as "renting" a computer over the Internet, with complete flexibility to choose the OS, CPU, RAM, and storage allocation based on specific project needs—eliminating physical server maintenance.
+
+---
+
+### KEY HIGHLIGHTS
+
+- **Instance Types:** Configured to match workload requirements rather than blindly picking top-tier specs, ensuring cost efficiency.
+- **Security Groups:** Functions as the first-line firewall controlling inbound and outbound traffic, embedding security right from server creation.
+
+---
+
+### EVERYTHING IS CONNECTED IN THE AWS ECOSYSTEM
+
+Exploring EC2 naturally introduced related services: **IAM** for access permissions, **VPC** for networking, and **CloudWatch** for resource monitoring. AWS services are designed to work together harmoniously.
+
+---
+
+### REFLECTIONS AFTER 2 MONTHS
+
+Understanding *why* each service exists to solve specific problems makes learning AWS much more approachable.
+
+**Reference Links:**
+* **AWS Documentation – Amazon EC2 User Guide:** https://docs.aws.amazon.com/ec2/
+* **Amazon EC2 – AWS Product Overview:** https://aws.amazon.com/ec2/
+* **AWS Study Group Youtube:** https://www.youtube.com/@AWSStudyGroup
